@@ -1,0 +1,26 @@
+name: Generate EPG
+on:
+  schedule:
+    - cron: '0 2 * * *' # Alle 02:00 ogni notte
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run Script
+        run: python src/main.py
+      - name: Commit and Push
+        run: |
+          git config --global user.name "EPG-Bot"
+          git config --global user.email "bot@github.com"
+          git add epg.xml
+          git commit -m "Aggiornamento EPG $(date)" || exit 0
+          git push
