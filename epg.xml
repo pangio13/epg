@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv>
+  <channel id="Rai1.it">
+    <display-name>Rai1.it</display-name>
+  </channel>
+  <channel id="Rai2.it">
+    <display-name>Rai2.it</display-name>
+  </channel>
+  <channel id="Rai3.it">
+    <display-name>Rai3.it</display-name>
+  </channel>
+  <channel id="Rete4.it">
+    <display-name>Rete4.it</display-name>
+  </channel>
+  <channel id="Canale5.it">
+    <display-name>Canale5.it</display-name>
+  </channel>
+  <channel id="Italia1.it">
+    <display-name>Italia1.it</display-name>
+  </channel>
+  <channel id="La7.it">
+    <display-name>La7.it</display-name>
+  </channel>
+  <channel id="Tv8.it">
+    <display-name>Tv8.it</display-name>
+  </channel>
+  <channel id="Nove.it">
+    <display-name>Nove.it</display-name>
+  </channel>
+  <channel id="20Mediaset.it">
+    <display-name>20Mediaset.it</display-name>
+  </channel>
+  <channel id="Rai4.it">
+    <display-name>Rai4.it</display-name>
+  </channel>
+  <channel id="Iris.it">
+    <display-name>Iris.it</display-name>
+  </channel>
+  <channel id="Cielo.it">
+    <display-name>Cielo.it</display-name>
+  </channel>
+  <channel id="LA5.it">
+    <display-name>LA5.it</display-name>
+  </channel>
+  <channel id="RealTime.it">
+    <display-name>RealTime.it</display-name>
+  </channel>
+  <channel id="FoodNetwork.it">
+    <display-name>FoodNetwork.it</display-name>
+  </channel>
+  <channel id="Focus.it">
+    <display-name>Focus.it</display-name>
+  </channel>
+  <channel id="Boing.it">
+    <display-name>Boing.it</display-name>
+  </channel>
+  <channel id="K2.it">
+    <display-name>K2.it</display-name>
+  </channel>
+  <channel id="Cartoonito.it">
+    <display-name>Cartoonito.it</display-name>
+  </channel>
+  <channel id="Super.it">
+    <display-name>Super.it</display-name>
+  </channel>
+  <channel id="Italia2.it">
+    <display-name>Italia2.it</display-name>
+  </channel>
+  <channel id="DMAX.it">
+    <display-name>DMAX.it</display-name>
+  </channel>
+  <channel id="MediasetExtra.it">
+    <display-name>MediasetExtra.it</display-name>
+  </channel>
+  <channel id="TwentySeven.it">
+    <display-name>TwentySeven.it</display-name>
+  </channel>
+  <channel id="RaiMovie.it">
+    <display-name>RaiMovie.it</display-name>
+  </channel>
+  <channel id="Cine34.it">
+    <display-name>Cine34.it</display-name>
+  </channel>
+  <channel id="Giallo.it">
+    <display-name>Giallo.it</display-name>
+  </channel>
+  <channel id="TopCrime.it">
+    <display-name>TopCrime.it</display-name>
+  </channel>
+  <channel id="RaiGulp.it">
+    <display-name>RaiGulp.it</display-name>
+  </channel>
+  <channel id="Frisbee.it">
+    <display-name>Frisbee.it</display-name>
+  </channel>
+  <channel id="Rai5.it">
+    <display-name>Rai5.it</display-name>
+  </channel>
+  <channel id="RaiPremium.it">
+    <display-name>RaiPremium.it</display-name>
+  </channel>
+  <channel id="DiscoveryTurbo.it">
+    <display-name>DiscoveryTurbo.it</display-name>
+  </channel>
+</tv>
