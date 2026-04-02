@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="GitHub-Multi-Source-EPG" source-info-name="EPGShare+EPGGuide+IPTVOrg">
+<tv generator-info-name="GitHub-Multi-Source-EPG" source-info-name="EPGShare+IPTVEPG+Lululla+EPGGuide">
   <channel id="Rai1.it">
     <display-name>Rai1.it</display-name>
   </channel>
