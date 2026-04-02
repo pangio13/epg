@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="GitHub-EPG-Generator">
+<tv generator-info-name="SuperGuidaTV-XMLTV-Scraper">
   <channel id="Rai1.it">
     <display-name>Rai1.it</display-name>
   </channel>
@@ -75,11 +75,17 @@
   <channel id="TwentySeven.it">
     <display-name>TwentySeven.it</display-name>
   </channel>
+  <channel id="La7Cinema.it">
+    <display-name>La7Cinema.it</display-name>
+  </channel>
   <channel id="RaiMovie.it">
     <display-name>RaiMovie.it</display-name>
   </channel>
   <channel id="Cine34.it">
     <display-name>Cine34.it</display-name>
+  </channel>
+  <channel id="Discovery.it">
+    <display-name>Discovery.it</display-name>
   </channel>
   <channel id="Giallo.it">
     <display-name>Giallo.it</display-name>
@@ -101,5 +107,17 @@
   </channel>
   <channel id="DiscoveryTurbo.it">
     <display-name>DiscoveryTurbo.it</display-name>
+  </channel>
+  <channel id="RTL102.5TV.it">
+    <display-name>RTL102.5TV.it</display-name>
+  </channel>
+  <channel id="Radio105TV.it">
+    <display-name>Radio105TV.it</display-name>
+  </channel>
+  <channel id="RadioItaliaTV.HD.it">
+    <display-name>RadioItaliaTV.HD.it</display-name>
+  </channel>
+  <channel id="DeejayTV.it">
+    <display-name>DeejayTV.it</display-name>
   </channel>
 </tv>
