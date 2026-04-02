@@ -23,11 +23,11 @@
   "Italia2.it": ["Italia2.it", "Italia 2 HD", "Italia 2"],
   "DMAX.it": ["DMAX.it", "DMAX HD", "DMAX"],
   "MediasetExtra.it": ["MediasetExtra.it", "Mediaset Extra HD", "Mediaset Extra"],
-  "TwentySeven.it": ["TwentySeven.it", "Twentyseven HD", "27 Twentyseven"],
+  "TwentySeven.it": ["TwentySeven.it", "Twentyseven HD", "27 Twentyseven", "27", "27 HD", "Twentyseven", "27 TwentySeven", "TwentySeven", "Warner TV"],
   "La7Cinema.it": ["La7Cinema.it", "La7d HD", "La7d"],
   "RaiMovie.it": ["RaiMovie.it", "Rai Movie HD", "Rai Movie"],
   "Cine34.it": ["Cine34.it", "Cine34 HD", "Cine34"],
-  "Discovery.it": ["Discovery.it", "Discovery Channel HD", "Discovery Channel"],
+  "Discovery.it": ["Discovery.it", "Discovery Channel HD", "Discovery Channel", "Discovery", "Discovery HD", "Discovery Channel Italia"],
   "Giallo.it": ["Giallo.it", "Giallo HD", "Giallo"],
   "TopCrime.it": ["TopCrime.it", "Top Crime HD", "Top Crime"],
   "RaiGulp.it": ["RaiGulp.it", "Rai Gulp HD", "Rai Gulp"],
@@ -37,6 +37,6 @@
   "DiscoveryTurbo.it": ["DiscoveryTurbo.it", "Motor Trend HD", "Motor Trend"],
   "RTL102.5TV.it": ["RTL102.5TV.it", "RTL 102.5 TV HD", "RTL 102.5 TV"],
   "Radio105TV.it": ["Radio105TV.it", "Radio 105 TV HD", "Radio 105 TV"],
-  "RadioItaliaTV.HD.it": ["RadioItaliaTV.HD.it", "Radio Italia TV HD", "Radio Italia TV"],
+  "RadioItaliaTV.HD.it": ["RadioItaliaTV.HD.it", "Radio Italia TV HD", "Radio Italia TV", "Radio Italia", "RadioItalia TV", "RadioItaliaTV"],
   "DeejayTV.it": ["DeejayTV.it", "Deejay TV HD", "Deejay TV"]
 }
