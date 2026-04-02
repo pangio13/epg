@@ -5,27 +5,14 @@ import os
 import xml.etree.ElementTree as ET
 from io import BytesIO
 
-# Elenco fonti in ordine di priorità (Fallback)
 SOURCES = [
-    {
-        "url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
-        "is_gz": True,
-        "name": "EPGShare01"
-    },
-    {
-        "url": "https://iptv-epg.org/files/epg-it.xml.gz",
-        "is_gz": True,
-        "name": "IPTV-epg"
-    },
-    {
-        "url": "http://epg-guide.com/dtt.xml",
-        "is_gz": False,
-        "name": "EPG-Guide"
-    }
+    {"url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", "is_gz": True, "name": "EPGShare01"},
+    {"url": "https://iptv-epg.org/files/epg-it.xml.gz", "is_gz": True, "name": "IPTV-EPG.org"},
+    {"url": "https://raw.githubusercontent.com/Lululla/xmltv/main/guide.xml.gz", "is_gz": True, "name": "Kodi-IT (Lululla)"},
+    {"url": "http://epg-guide.com/dtt.xml", "is_gz": False, "name": "EPG-Guide"}
 ]
 
 def load_mapping():
-    """Carica la mappatura dei canali da file locale."""
     if not os.path.exists('src/channels.json'):
         print("[!] Errore: src/channels.json mancante.")
         return {}
@@ -33,10 +20,9 @@ def load_mapping():
         return json.load(f)
 
 def fetch_and_parse(source):
-    """Scarica e converte in albero XML la sorgente specificata."""
     print(f"\nScaricamento sorgente [{source['name']}]: {source['url']}")
     try:
-        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) EPG-Aggregator/1.0"}
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
         response = requests.get(source['url'], headers=headers, timeout=30)
         response.raise_for_status()
         
@@ -57,47 +43,58 @@ def build_epg():
     if not mapping:
         return
 
-    # Inversione mappa per ricerca O(1): { "Nome_Sorgente": "Mio_ID_Target" }
+    # Inversione mappa case-insensitive e normalizzata
     reverse_map = {}
     for target_id, source_ids in mapping.items():
         for s_id in source_ids:
-            reverse_map[s_id] = target_id
+            reverse_map[s_id.lower().strip()] = target_id
 
     new_root = ET.Element("tv", {
         "generator-info-name": "GitHub-Multi-Source-EPG",
-        "source-info-name": "EPGShare+EPGGuide+IPTVOrg"
+        "source-info-name": "EPGShare+IPTVEPG+Lululla+EPGGuide"
     })
 
-    # Inizializzazione tracciamento canali
     added_channels = list(mapping.keys())
     program_count = {ch: 0 for ch in added_channels}
     
-    # Inserimento tag base <channel>
     for target_id in added_channels:
         ch_node = ET.SubElement(new_root, "channel", id=target_id)
         ET.SubElement(ch_node, "display-name").text = target_id
 
-    # Iterazione sulle fonti a cascata
     for source in SOURCES:
         if all(count > 0 for count in program_count.values()):
-            print("\n[INFO] Tutti i canali sono stati popolati. Stop aggregazione.")
+            print("\n[INFO] Tutti i canali sono popolati. Stop aggregazione.")
             break
 
         source_root = fetch_and_parse(source)
         if source_root is None:
             continue
 
-        print(f"Filtro e associazione programmi da {source['name']}...")
+        print(f"Mappatura dinamica dei canali per {source['name']}...")
+        
+        # MAPPATURA BIDIREZIONALE (Match su ID e su Nome Testuale)
+        local_channel_map = {}
+        for ch in source_root.findall('channel'):
+            c_id = ch.get('id', '')
+            c_id_lower = c_id.lower().strip()
+            
+            disp_elem = ch.find('display-name')
+            c_name = disp_elem.text.lower().strip() if disp_elem is not None and disp_elem.text else ""
+
+            if c_id_lower in reverse_map:
+                local_channel_map[c_id] = reverse_map[c_id_lower]
+            elif c_name in reverse_map:
+                local_channel_map[c_id] = reverse_map[c_name]
+
         added_from_this_source = 0
         
         for prog in source_root.findall('programme'):
             source_ch_id = prog.get('channel')
             
-            if source_ch_id in reverse_map:
-                target_ch_id = reverse_map[source_ch_id]
+            if source_ch_id in local_channel_map:
+                target_ch_id = local_channel_map[source_ch_id]
                 
-                # Evita duplicati: aggiunge solo se il canale è ancora a 0 programmi
-                if program_count[target_ch_id] == 0 or getattr(prog, 'override_flag', False):
+                if program_count[target_ch_id] == 0:
                     new_prog = ET.Element("programme", prog.attrib)
                     new_prog.set('channel', target_ch_id)
                     
@@ -105,10 +102,8 @@ def build_epg():
                         new_prog.append(child)
                     
                     new_root.append(new_prog)
-                    # Flag temporaneo per conteggio
                     prog.set('added_to', target_ch_id) 
 
-        # Aggiorna i contatori per la sorgente corrente
         for prog in source_root.findall('programme'):
             target = prog.get('added_to')
             if target:
@@ -117,7 +112,6 @@ def build_epg():
 
         print(f"[+] {added_from_this_source} programmi estratti da {source['name']}.")
 
-    # --- DETTAGLIO CANALI E STATISTICHE FINALI ---
     print("\n--- DETTAGLIO CANALI ---")
     mancanti = []
     success_count = 0
@@ -129,27 +123,24 @@ def build_epg():
             print(f"[OK] {ch}: {count} programmi")
         else:
             mancanti.append(ch)
-            print(f"[VUOTO] {ch}: Nessun dato in nessuna sorgente")
+            print(f"[VUOTO] {ch}: Nessun dato")
 
-    # Scrittura su disco
     try:
         tree = ET.ElementTree(new_root)
         ET.indent(tree, space="  ")
         tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
     except Exception as e:
-        print(f"\n[ERR] Errore critico durante la scrittura del file epg.xml: {e}")
+        print(f"\n[ERR] Errore critico salvataggio: {e}")
         return
     
-    # OUTPUT DI CONFERMA FINALE
-    coverage_percentage = (success_count / total_channels) * 100 if total_channels > 0 else 0
+    coverage = (success_count / total_channels) * 100 if total_channels > 0 else 0
     
     print("\n==================================================")
     if success_count == total_channels:
-        print(f"✅ SUCCESSO TOTALE: Guida generata per {success_count}/{total_channels} canali ({coverage_percentage:.1f}%).")
+        print(f"✅ SUCCESSO TOTALE: {success_count}/{total_channels} canali ({coverage:.1f}%).")
     else:
-        print(f"⚠️ SUCCESSO PARZIALE: Guida generata per {success_count}/{total_channels} canali ({coverage_percentage:.1f}%).")
-        print(f"Canali mancanti ({len(mancanti)}): {', '.join(mancanti)}")
-        print("-> Azione: Verifica i nomi in src/channels.json per i canali mancanti.")
+        print(f"⚠️ SUCCESSO PARZIALE: {success_count}/{total_channels} canali ({coverage:.1f}%).")
+        print(f"Mancanti ({len(mancanti)}): {', '.join(mancanti)}")
     print("==================================================\n")
 
 if __name__ == "__main__":
