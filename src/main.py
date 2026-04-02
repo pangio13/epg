@@ -13,15 +13,10 @@ SOURCES = [
         "name": "EPGShare01"
     },
     {
-        "url": "http://epg-guide.com/dtt.xml",
+        "url": "https://epg-guide.com/it.gz",
         "is_gz": False,
         "name": "EPG-Guide"
     },
-    {
-        "url": "https://iptv-org.github.io/epg/guides/it/superguidatv.it.epg.xml",
-        "is_gz": False,
-        "name": "IPTV-Org (SuperGuidaTV)"
-    }
 ]
 
 def load_mapping():
