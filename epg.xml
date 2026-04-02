@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Tivusat-EPG-Generator" source-info-name="TivuLaGuida">
+<tv generator-info-name="Tivusat-EPG-Generator-Personal" source-info-name="TivuLaGuida-Official">
   <channel id="Rai1.it">
     <display-name>Rai1.it</display-name>
   </channel>
