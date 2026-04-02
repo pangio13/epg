@@ -1,42 +1,139 @@
 {
-  "Rai1.it": ["Rai1.it", "Rai 1 HD", "Rai 1"],
-  "Rai2.it": ["Rai2.it", "Rai 2 HD", "Rai 2"],
-  "Rai3.it": ["Rai3.it", "Rai 3 HD", "Rai 3"],
-  "Rete4.it": ["Rete4.it", "Rete 4 HD", "Rete 4"],
-  "Canale5.it": ["Canale5.it", "Canale 5 HD", "Canale 5"],
-  "Italia1.it": ["Italia1.it", "Italia 1 HD", "Italia 1"],
-  "La7.it": ["La7.it", "La7 HD", "La7"],
-  "Tv8.it": ["Tv8.it", "TV8 HD", "TV8"],
-  "Nove.it": ["Nove.it", "Nove HD", "Nove"],
-  "20Mediaset.it": ["20Mediaset.it", "20 Mediaset HD", "20 Mediaset"],
-  "Rai4.it": ["Rai4.it", "Rai 4 HD", "Rai 4"],
-  "Iris.it": ["Iris.it", "Iris HD", "Iris"],
-  "Cielo.it": ["Cielo.it", "Cielo HD", "Cielo"],
-  "LA5.it": ["LA5.it", "La5 HD", "La5"],
-  "RealTime.it": ["RealTime.it", "Real Time HD", "Real Time"],
-  "FoodNetwork.it": ["FoodNetwork.it", "Food Network HD", "Food Network"],
-  "Focus.it": ["Focus.it", "Focus HD", "Focus"],
-  "Boing.it": ["Boing.it", "Boing HD", "Boing"],
-  "K2.it": ["K2.it", "K2 HD", "K2"],
-  "Cartoonito.it": ["Cartoonito.it", "Cartoonito HD", "Cartoonito"],
-  "Super.it": ["Super.it", "Super! HD", "Super!"],
-  "Italia2.it": ["Italia2.it", "Italia 2 HD", "Italia 2"],
-  "DMAX.it": ["DMAX.it", "DMAX HD", "DMAX"],
-  "MediasetExtra.it": ["MediasetExtra.it", "Mediaset Extra HD", "Mediaset Extra"],
-  "27.Twentyseven.it": ["TwentySeven.it", "Twentyseven HD", "27Twentyseven", "27", "27 HD", "Twentyseven", "27 TwentySeven", "TwentySeven"],
-  "La7Cinema.it": ["La7Cinema.it", "La7d HD", "La7d"],
-  "RaiMovie.it": ["RaiMovie.it", "Rai Movie HD", "Rai Movie"],
-  "Cine34.it": ["Cine34.it", "Cine34 HD", "Cine34"],
-  "Warner.TV.it": ["Discovery.it", "Discovery Channel HD", "Discovery Channel", "Discovery", "Discovery HD","Warner TV", "Discovery Channel Italia"],
-  "Giallo.it": ["Giallo.it", "Giallo HD", "Giallo"],
-  "TopCrime.it": ["TopCrime.it", "Top Crime HD", "Top Crime"],
-  "RaiGulp.it": ["RaiGulp.it", "Rai Gulp HD", "Rai Gulp"],
-  "Frisbee.it": ["Frisbee.it", "Frisbee HD", "Frisbee"],
-  "Rai5.it": ["Rai5.it", "Rai 5 HD", "Rai 5"],
-  "RaiPremium.it": ["RaiPremium.it", "Rai Premium HD", "Rai Premium"],
-  "DiscoveryTurbo.it": ["DiscoveryTurbo.it", "Motor Trend HD", "Motor Trend"],
-  "RTL102.5TV.it": ["RTL102.5TV.it", "RTL 102.5 TV HD", "RTL 102.5 TV"],
-  "Radio105TV.it": ["Radio105TV.it", "Radio 105 TV HD", "Radio 105 TV"],
-  "RadioItaliaTV.it": ["RadioItaliaTV.it", "Radio Italia TV HD", "Radio Italia TV", "Radio Italia", "RadioItalia TV", "RadioItaliaTV"],
-  "DeejayTV.it": ["DeejayTV.it", "Deejay TV HD", "Deejay TV"]
+  "Rai1.it": [
+    "Rai1.it",
+    "Rai.1.HD..101.it"
+  ],
+  "Rai2.it": [
+    "Rai2.it",
+    "Rai.2.HD..102.it"
+  ],
+  "Rai3.it": [
+    "Rai3.it",
+    "Rai.3.HD..103.it"
+  ],
+  "Rete4.it": [
+    "Rete.4.it"
+  ],
+  "Canale5.it": [
+    "Canale.5.it"
+  ],
+  "Italia1.it": [
+    "Italia.1.it"
+  ],
+  "La7.it": [
+    "LA7.HD.it"
+  ],
+  "Tv8.it": [
+    "TV8.HD.it"
+  ],
+  "Nove.it": [
+    "Nove.it",
+    "NOVE.HD..149.it"
+  ],
+  "20Mediaset.it": [
+    "20.it"
+  ],
+  "Rai4.it": [
+    "Rai4.it",
+    "Rai.4..5021.it"
+  ],
+  "Iris.it": [
+    "Iris.it"
+  ],
+  "Cielo.it": [
+    "cielo.it"
+  ],
+  "LA5.it": [
+    "La.5.it"
+  ],
+  "RealTime.it": [
+    "Real.Time.it",
+    "Real.Time.HD..160.it"
+  ],
+  "FoodNetwork.it": [
+    "Food.Network.it",
+    "Food.Network.HD..417.it"
+  ],
+  "Focus.it": [
+    "Focus.it"
+  ],
+  "Boing.it": [
+    "Boing.it"
+  ],
+  "K2.it": [
+    "K2.it"
+  ],
+  "Cartoonito.it": [
+    "Cartoonito.it"
+  ],
+  "Super.it": [
+    "Super!.it"
+  ],
+  "Italia2.it": [
+    "Italia.2.it"
+  ],
+  "DMAX.it": [
+    "DMAX.it",
+    "DMAX.HD..170.it"
+  ],
+  "MediasetExtra.it": [
+    "Mediaset.Extra.it"
+  ],
+  "TwentySeven.it": [
+    "27.Twentyseven.it"
+  ],
+  "La7Cinema.it": [
+    "LA7.CINEMA.it",
+    "LA7D.it"
+  ],
+  "RaiMovie.it": [
+    "RaiMovie.it",
+    "Rai.Movie..5024.it"
+  ],
+  "Cine34.it": [
+    "Cine34.it"
+  ],
+  "Discovery.it": [
+    "Discovery.Channel.it"
+  ],
+  "Giallo.it": [
+    "Giallo.TV.it",
+    "GIALLO.HD..167.it"
+  ],
+  "TopCrime.it": [
+    "Top.Crime.it",
+    "TOPcrime.HD..168.it"
+  ],
+  "RaiGulp.it": [
+    "RaiGulp.it",
+    "Rai.Gulp..5042.it"
+  ],
+  "Frisbee.it": [
+    "Frisbee.it"
+  ],
+  "Rai5.it": [
+    "Rai5.it",
+    "Rai.5..5023.it"
+  ],
+  "RaiPremium.it": [
+    "RaiPremium.it",
+    "Rai.Premium..5025.it"
+  ],
+  "DiscoveryTurbo.it": [
+    "Motor.Trend.it",
+    "Motor.Trend.HD..419.it"
+  ],
+  "RTL102.5TV.it": [
+    "RTL.102.5.HD.it"
+  ],
+  "Radio105TV.it": [
+    "Radio.105.it"
+  ],
+  "RadioItaliaTV.HD.it": [
+    "Radio.Italia.TV.HD.it",
+    "Radio.Italia.Trend.Tv.HD.it"
+  ],
+  "DeejayTV.it": [
+    "Deejay.TV.it"
+  ]
 }
