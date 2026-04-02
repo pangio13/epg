@@ -18,7 +18,7 @@ SOURCES = [
         "name": "IPTV-epg"
     },
     {
-        "url": "http://epg-guide.com/dtt.xml",
+        "url": "https://epg-guide.com/it.xz",
         "is_gz": False,
         "name": "EPG-Guide"
     }
