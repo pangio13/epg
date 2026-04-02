@@ -13,6 +13,11 @@ SOURCES = [
         "name": "EPGShare01"
     },
     {
+        "url": "https://iptv-epg.org/files/epg-it.xml",
+        "is_gz": True,
+        "name": "IPTV-epg"
+    },
+    {
         "url": "http://epg-guide.com/dtt.xml",
         "is_gz": False,
         "name": "EPG-Guide"
