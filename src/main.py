@@ -1,92 +1,156 @@
 import requests
+import gzip
 import json
-import time
 import os
-from datetime import datetime, timedelta
 import xml.etree.ElementTree as ET
+from io import BytesIO
 
-# Sorgente stabile 2026: SuperGuidaTV
-API_URL = "https://api.superguidatv.it/v1/epg/channel/{id}/schedule?date={date}&device=web"
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+# Elenco fonti in ordine di priorità (Fallback)
+SOURCES = [
+    {
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
+        "is_gz": True,
+        "name": "EPGShare01"
+    },
+    {
+        "url": "http://epg-guide.com/dtt.xml",
+        "is_gz": False,
+        "name": "EPG-Guide"
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/it/superguidatv.it.epg.xml",
+        "is_gz": False,
+        "name": "IPTV-Org (SuperGuidaTV)"
+    }
+]
 
-def get_offset():
-    # Aprile 2026: Ora legale italiana (+0200)
-    return "+0200"
-
-def clean_time(time_str):
-    """Converte '2026-04-02 20:30:00' in '20260402203000'"""
-    return time_str.replace("-", "").replace(":", "").replace(" ", "")
-
-def fetch_epg():
+def load_mapping():
+    """Carica la mappatura dei canali da file locale."""
     if not os.path.exists('src/channels.json'):
-        print("Errore: src/channels.json non trovato")
+        print("[!] Errore: src/channels.json mancante.")
+        return {}
+    with open('src/channels.json', 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def fetch_and_parse(source):
+    """Scarica e converte in albero XML la sorgente specificata."""
+    print(f"\nScaricamento sorgente [{source['name']}]: {source['url']}")
+    try:
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) EPG-Aggregator/1.0"}
+        response = requests.get(source['url'], headers=headers, timeout=30)
+        response.raise_for_status()
+        
+        if source['is_gz']:
+            with gzip.GzipFile(fileobj=BytesIO(response.content)) as gz:
+                tree = ET.parse(gz)
+        else:
+            tree = ET.parse(BytesIO(response.content))
+            
+        print(f"[OK] {source['name']} parsato con successo.")
+        return tree.getroot()
+    except Exception as e:
+        print(f"[ERR] Fallimento per {source['name']}: {e}")
+        return None
+
+def build_epg():
+    mapping = load_mapping()
+    if not mapping:
         return
 
-    with open('src/channels.json', 'r') as f:
-        mapping = json.load(f)
+    # Inversione mappa per ricerca O(1): { "Nome_Sorgente": "Mio_ID_Target" }
+    reverse_map = {}
+    for target_id, source_ids in mapping.items():
+        for s_id in source_ids:
+            reverse_map[s_id] = target_id
 
-    root = ET.Element("tv", {"generator-info-name": "SuperGuidaTV-XMLTV-Scraper"})
-    
-    # Header Canali
-    for tvg_id in mapping.keys():
-        ch = ET.SubElement(root, "channel", id=tvg_id)
-        ET.SubElement(ch, "display-name").text = tvg_id
+    new_root = ET.Element("tv", {
+        "generator-info-name": "GitHub-Multi-Source-EPG",
+        "source-info-name": "EPGShare+EPGGuide+IPTVOrg"
+    })
 
-    # Scarichiamo oggi e domani
-    dates = [datetime.now(), datetime.now() + timedelta(days=1)]
+    # Inizializzazione tracciamento canali
+    added_channels = list(mapping.keys())
+    program_count = {ch: 0 for ch in added_channels}
     
-    for date in dates:
-        d_str = date.strftime("%Y-%m-%d")
-        print(f"\n--- Elaborazione data: {d_str} ---")
+    # Inserimento tag base <channel>
+    for target_id in added_channels:
+        ch_node = ET.SubElement(new_root, "channel", id=target_id)
+        ET.SubElement(ch_node, "display-name").text = target_id
+
+    # Iterazione sulle fonti a cascata
+    for source in SOURCES:
+        if all(count > 0 for count in program_count.values()):
+            print("\n[INFO] Tutti i canali sono stati popolati. Stop aggregazione.")
+            break
+
+        source_root = fetch_and_parse(source)
+        if source_root is None:
+            continue
+
+        print(f"Filtro e associazione programmi da {source['name']}...")
+        added_from_this_source = 0
         
-        for tvg_id, sg_id in mapping.items():
-            try:
-                url = API_URL.format(id=sg_id, date=d_str)
-                r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=10)
+        for prog in source_root.findall('programme'):
+            source_ch_id = prog.get('channel')
+            
+            if source_ch_id in reverse_map:
+                target_ch_id = reverse_map[source_ch_id]
                 
-                if r.status_code == 200:
-                    data = r.json()
-                    programs = data.get("data", [])
+                # Evita duplicati: aggiunge solo se il canale è ancora a 0 programmi
+                if program_count[target_ch_id] == 0 or getattr(prog, 'override_flag', False):
+                    new_prog = ET.Element("programme", prog.attrib)
+                    new_prog.set('channel', target_ch_id)
                     
-                    if not programs:
-                        print(f"[-] {tvg_id}: Nessun dato")
-                        continue
-                        
-                    count = 0
-                    for p in programs:
-                        # Parsing orari e creazione nodi
-                        start = clean_time(p["startTime"])
-                        end = clean_time(p["endTime"])
-                        
-                        p_node = ET.SubElement(root, "programme", 
-                                              start=f"{start} {get_offset()}",
-                                              stop=f"{end} {get_offset()}",
-                                              channel=tvg_id)
-                        
-                        ET.SubElement(p_node, "title", lang="it").text = p.get("title", "N/A")
-                        
-                        if p.get("description"):
-                            ET.SubElement(p_node, "desc", lang="it").text = p["description"]
-                        
-                        # Aggiunta opzionale: Categoria/Genere
-                        if p.get("genre"):
-                            ET.SubElement(p_node, "category", lang="it").text = p["genre"]
-                            
-                        count += 1
-                    print(f"[OK] {tvg_id}: {count} programmi")
-                else:
-                    print(f"[!] {tvg_id}: Errore HTTP {r.status_code}")
-                
-                # Delay per rispettare i server (evita ban IP)
-                time.sleep(0.3)
-            except Exception as e:
-                print(f"[Err] {tvg_id}: {e}")
+                    for child in prog:
+                        new_prog.append(child)
+                    
+                    new_root.append(new_prog)
+                    # Flag temporaneo per conteggio
+                    prog.set('added_to', target_ch_id) 
 
-    # Salvataggio finale
-    tree = ET.ElementTree(root)
-    ET.indent(tree, space="  ")
-    tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
-    print("\nOperazione completata con successo.")
+        # Aggiorna i contatori per la sorgente corrente
+        for prog in source_root.findall('programme'):
+            target = prog.get('added_to')
+            if target:
+                program_count[target] += 1
+                added_from_this_source += 1
+
+        print(f"[+] {added_from_this_source} programmi estratti da {source['name']}.")
+
+    # --- DETTAGLIO CANALI E STATISTICHE FINALI ---
+    print("\n--- DETTAGLIO CANALI ---")
+    mancanti = []
+    success_count = 0
+    total_channels = len(program_count)
+
+    for ch, count in program_count.items():
+        if count > 0:
+            success_count += 1
+            print(f"[OK] {ch}: {count} programmi")
+        else:
+            mancanti.append(ch)
+            print(f"[VUOTO] {ch}: Nessun dato in nessuna sorgente")
+
+    # Scrittura su disco
+    try:
+        tree = ET.ElementTree(new_root)
+        ET.indent(tree, space="  ")
+        tree.write("epg.xml", encoding="utf-8", xml_declaration=True)
+    except Exception as e:
+        print(f"\n[ERR] Errore critico durante la scrittura del file epg.xml: {e}")
+        return
+    
+    # OUTPUT DI CONFERMA FINALE
+    coverage_percentage = (success_count / total_channels) * 100 if total_channels > 0 else 0
+    
+    print("\n==================================================")
+    if success_count == total_channels:
+        print(f"✅ SUCCESSO TOTALE: Guida generata per {success_count}/{total_channels} canali ({coverage_percentage:.1f}%).")
+    else:
+        print(f"⚠️ SUCCESSO PARZIALE: Guida generata per {success_count}/{total_channels} canali ({coverage_percentage:.1f}%).")
+        print(f"Canali mancanti ({len(mancanti)}): {', '.join(mancanti)}")
+        print("-> Azione: Verifica i nomi in src/channels.json per i canali mancanti.")
+    print("==================================================\n")
 
 if __name__ == "__main__":
-    fetch_epg()
+    build_epg()
