@@ -13,7 +13,7 @@ SOURCES = [
         "name": "EPGShare01"
     },
     {
-        "url": "https://epg-guide.com/it.gz",
+        "url": "http://epg-guide.com/dtt.xml",
         "is_gz": False,
         "name": "EPG-Guide"
     },
