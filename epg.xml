@@ -52590,12 +52590,6 @@
     <category lang="it">Cartoni Animati</category>
     <icon src="https://guidatv.sky.it/uuid/Kids_Cover_PFo0SiHH0.png" />
   </programme>
-  <programme start="20260401000000 +0200" stop="20260401020000 +0200" channel="Frisbee.it">
-    <title lang="it">EPG non disponibile</title>
-  </programme>
-  <programme start="20260401060000 +0200" stop="20260402000000 +0200" channel="Frisbee.it">
-    <title lang="it">EPG non disponibile</title>
-  </programme>
   <programme start="20260402000000 +0200" stop="20260402020000 +0200" channel="Frisbee.it">
     <title lang="it">EPG non disponibile</title>
   </programme>
@@ -52626,10 +52620,10 @@
   <programme start="20260406060000 +0200" stop="20260407000000 +0200" channel="Frisbee.it">
     <title lang="it">EPG non disponibile</title>
   </programme>
-  <programme start="20260401000000 +0200" stop="20260401020000 +0200" channel="K2.it">
+  <programme start="20260407000000 +0200" stop="20260407020000 +0200" channel="Frisbee.it">
     <title lang="it">EPG non disponibile</title>
   </programme>
-  <programme start="20260401060000 +0200" stop="20260402000000 +0200" channel="K2.it">
+  <programme start="20260407060000 +0200" stop="20260408000000 +0200" channel="Frisbee.it">
     <title lang="it">EPG non disponibile</title>
   </programme>
   <programme start="20260402000000 +0200" stop="20260402020000 +0200" channel="K2.it">
@@ -52662,785 +52656,11 @@
   <programme start="20260406060000 +0200" stop="20260407000000 +0200" channel="K2.it">
     <title lang="it">EPG non disponibile</title>
   </programme>
-  <programme start="20260401000800 +0200" stop="20260401001100 +0200" channel="Radio.105.it">
-    <title lang="it">THE KOLORS</title>
-    <desc lang="it">THE KOLORS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401001100 +0200" stop="20260401001400 +0200" channel="Radio.105.it">
-    <title lang="it">MAROON 5 FEAT. MEGAN THEE STALLION</title>
-    <desc lang="it">MAROON 5 FEAT. MEGAN THEE STALLION - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401001400 +0200" stop="20260401001800 +0200" channel="Radio.105.it">
-    <title lang="it">JUSTIN TIMBERLAKE</title>
-    <desc lang="it">JUSTIN TIMBERLAKE - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401001800 +0200" stop="20260401002400 +0200" channel="Radio.105.it">
-    <title lang="it">POST MALONE FEAT. MORGAN WALLEN</title>
-    <desc lang="it">POST MALONE FEAT. MORGAN WALLEN - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401002400 +0200" stop="20260401002800 +0200" channel="Radio.105.it">
-    <title lang="it">ONE REPUBLIC</title>
-    <desc lang="it">Gli OneRepublic sono un gruppo musicale statunitense formatosi nel 2002. - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401002800 +0200" stop="20260401003100 +0200" channel="Radio.105.it">
-    <title lang="it">Tame impala &amp; jennie</title>
-    <desc lang="it">Tame impala &amp; jennie - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401003100 +0200" stop="20260401003400 +0200" channel="Radio.105.it">
-    <title lang="it">TROYE SIVAN</title>
-    <desc lang="it">TROYE SIVAN - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401003400 +0200" stop="20260401003800 +0200" channel="Radio.105.it">
-    <title lang="it">BLANCO</title>
-    <desc lang="it">BLANCO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401003800 +0200" stop="20260401004100 +0200" channel="Radio.105.it">
-    <title lang="it">BLACKBEAR</title>
-    <desc lang="it">BLACKBEAR - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401004100 +0200" stop="20260401004400 +0200" channel="Radio.105.it">
-    <title lang="it">ZERB &amp; THE CHAINSMOKERS FEAT. INK</title>
-    <desc lang="it">ZERB &amp; THE CHAINSMOKERS FEAT. INK - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401004400 +0200" stop="20260401004800 +0200" channel="Radio.105.it">
-    <title lang="it">TAYLOR SWIFT</title>
-    <desc lang="it">TAYLOR SWIFT - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401004800 +0200" stop="20260401005400 +0200" channel="Radio.105.it">
-    <title lang="it">SELENA GOMEZ</title>
-    <desc lang="it">SELENA GOMEZ - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401005600 +0200" stop="20260401010000 +0200" channel="Radio.105.it">
-    <title lang="it">SILK SONIC FEAT. BRUNO MARS &amp; ANDERSON .PAAK</title>
-    <desc lang="it">SILK SONIC FEAT. BRUNO MARS &amp; ANDERSON .PAAK - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401010200 +0200" stop="20260401010600 +0200" channel="Radio.105.it">
-    <title lang="it">JUSTIN BIEBER</title>
-    <desc lang="it">JUSTIN BIEBER - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401010600 +0200" stop="20260401010900 +0200" channel="Radio.105.it">
-    <title lang="it">MARRACASH</title>
-    <desc lang="it">MARRACASH - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401010900 +0200" stop="20260401011300 +0200" channel="Radio.105.it">
-    <title lang="it">Calvin harris feat. kasabian</title>
-    <desc lang="it">Calvin harris feat. kasabian - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401011300 +0200" stop="20260401011600 +0200" channel="Radio.105.it">
-    <title lang="it">SOMBR</title>
-    <desc lang="it">SOMBR - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401011600 +0200" stop="20260401012000 +0200" channel="Radio.105.it">
-    <title lang="it">Lda &amp; aka 7even</title>
-    <desc lang="it">Lda &amp; aka 7even - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401012000 +0200" stop="20260401012400 +0200" channel="Radio.105.it">
-    <title lang="it">BILLIE EILISH</title>
-    <desc lang="it">BILLIE EILISH - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401012400 +0200" stop="20260401012900 +0200" channel="Radio.105.it">
-    <title lang="it">KUNGS FEAT. THEOPHILUS LONDON</title>
-    <desc lang="it">KUNGS FEAT. THEOPHILUS LONDON - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401012900 +0200" stop="20260401013200 +0200" channel="Radio.105.it">
-    <title lang="it">MYLES SMITH FEAT. NIALL HORAN</title>
-    <desc lang="it">MYLES SMITH FEAT. NIALL HORAN - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401013200 +0200" stop="20260401013600 +0200" channel="Radio.105.it">
-    <title lang="it">ROBBIE WILLIAMS</title>
-    <desc lang="it">Robert Peter Williams, noto come Robbie Williams (13 febbraio 1974), e' un cantautore e musicista britannico. La sua carriera musicale ebbe inizio nel 1990 nella boy band chiamata Take That. - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401013600 +0200" stop="20260401013900 +0200" channel="Radio.105.it">
-    <title lang="it">LOUIS TOMLINSON</title>
-    <desc lang="it">LOUIS TOMLINSON - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401013900 +0200" stop="20260401014200 +0200" channel="Radio.105.it">
-    <title lang="it">Ernia</title>
-    <desc lang="it">Ernia - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401014200 +0200" stop="20260401014500 +0200" channel="Radio.105.it">
-    <title lang="it">SOLEROY</title>
-    <desc lang="it">SOLEROY - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401014500 +0200" stop="20260401014800 +0200" channel="Radio.105.it">
-    <title lang="it">IMAGINE DRAGONS</title>
-    <desc lang="it">IMAGINE DRAGONS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401015000 +0200" stop="20260401015600 +0200" channel="Radio.105.it">
-    <title lang="it">FEDEZ &amp; MARCO MASINI</title>
-    <desc lang="it">FEDEZ &amp; MARCO MASINI - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401015600 +0200" stop="20260401015900 +0200" channel="Radio.105.it">
-    <title lang="it">PINKPANTHERESS &amp; ZARA LARSSON</title>
-    <desc lang="it">PINKPANTHERESS &amp; ZARA LARSSON - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401015900 +0200" stop="20260401020200 +0200" channel="Radio.105.it">
-    <title lang="it">DJ KHALED FEAT. DRAKE &amp; LIL BABY</title>
-    <desc lang="it">DJ KHALED FEAT. DRAKE &amp; LIL BABY - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401020400 +0200" stop="20260401020700 +0200" channel="Radio.105.it">
-    <title lang="it">BRESH</title>
-    <desc lang="it">BRESH - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401020700 +0200" stop="20260401021100 +0200" channel="Radio.105.it">
-    <title lang="it">LOS UNIDADES &amp; PHARRELL WILLIAMS FEAT. JOZZY</title>
-    <desc lang="it">LOS UNIDADES &amp; PHARRELL WILLIAMS FEAT. JOZZY - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401021100 +0200" stop="20260401021400 +0200" channel="Radio.105.it">
-    <title lang="it">MEEK</title>
-    <desc lang="it">MEEK - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401021400 +0200" stop="20260401021700 +0200" channel="Radio.105.it">
-    <title lang="it">FIREBOY DML &amp; ED SHEERAN</title>
-    <desc lang="it">FIREBOY DML &amp; ED SHEERAN - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401021700 +0200" stop="20260401022100 +0200" channel="Radio.105.it">
-    <title lang="it">A$ap rocky</title>
-    <desc lang="it">A$ap rocky - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401022100 +0200" stop="20260401022400 +0200" channel="Radio.105.it">
-    <title lang="it">Corbyn besson &amp; tzuyu</title>
-    <desc lang="it">Corbyn besson &amp; tzuyu - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401022400 +0200" stop="20260401022800 +0200" channel="Radio.105.it">
-    <title lang="it">THE WEEKND &amp; PLAYBOI CARTI</title>
-    <desc lang="it">THE WEEKND &amp; PLAYBOI CARTI - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401023000 +0200" stop="20260401023300 +0200" channel="Radio.105.it">
-    <title lang="it">Nayt</title>
-    <desc lang="it">Nayt - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401023300 +0200" stop="20260401023700 +0200" channel="Radio.105.it">
-    <title lang="it">COLDPLAY</title>
-    <desc lang="it">I Coldplay sono un gruppo britannico formatosi a Londra nel 1997. Il vocalist della band e' Chris Martin. - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401023700 +0200" stop="20260401024000 +0200" channel="Radio.105.it">
-    <title lang="it">KAMRAD</title>
-    <desc lang="it">KAMRAD - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401024000 +0200" stop="20260401024600 +0200" channel="Radio.105.it">
-    <title lang="it">HARRY STYLES</title>
-    <desc lang="it">HARRY STYLES - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401024600 +0200" stop="20260401024900 +0200" channel="Radio.105.it">
-    <title lang="it">TOMMASO PARADISO</title>
-    <desc lang="it">TOMMASO PARADISO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401024900 +0200" stop="20260401025200 +0200" channel="Radio.105.it">
-    <title lang="it">MADONNA &amp; SICKICK</title>
-    <desc lang="it">MADONNA &amp; SICKICK - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401025200 +0200" stop="20260401025500 +0200" channel="Radio.105.it">
-    <title lang="it">BENSON BOONE</title>
-    <desc lang="it">BENSON BOONE - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401025500 +0200" stop="20260401025800 +0200" channel="Radio.105.it">
-    <title lang="it">DJO</title>
-    <desc lang="it">DJO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401025800 +0200" stop="20260401030100 +0200" channel="Radio.105.it">
-    <title lang="it">GEOLIER</title>
-    <desc lang="it">GEOLIER - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401030100 +0200" stop="20260401030500 +0200" channel="Radio.105.it">
-    <title lang="it">FRED AGAIN &amp; OBONGJAYAR</title>
-    <desc lang="it">FRED AGAIN &amp; OBONGJAYAR - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401030500 +0200" stop="20260401030900 +0200" channel="Radio.105.it">
-    <title lang="it">SAM SMITH</title>
-    <desc lang="it">Samuel Frederick Smith, noto come Sam Smith (Londra, 19 Maggio 1992), e' un cantante britannico. - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401030900 +0200" stop="20260401031200 +0200" channel="Radio.105.it">
-    <title lang="it">Samurai jay</title>
-    <desc lang="it">Samurai jay - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401031200 +0200" stop="20260401031500 +0200" channel="Radio.105.it">
-    <title lang="it">MILEY CYRUS</title>
-    <desc lang="it">MILEY CYRUS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401031500 +0200" stop="20260401031800 +0200" channel="Radio.105.it">
-    <title lang="it">Tame impala &amp; jennie</title>
-    <desc lang="it">Tame impala &amp; jennie - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401031800 +0200" stop="20260401032300 +0200" channel="Radio.105.it">
-    <title lang="it">TAYLOR SWIFT</title>
-    <desc lang="it">TAYLOR SWIFT - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401032300 +0200" stop="20260401032600 +0200" channel="Radio.105.it">
-    <title lang="it">AVRIL LAVIGNE FEAT. YUNGBLUD</title>
-    <desc lang="it">AVRIL LAVIGNE FEAT. YUNGBLUD - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401032600 +0200" stop="20260401032900 +0200" channel="Radio.105.it">
-    <title lang="it">DITONELLAPIAGA</title>
-    <desc lang="it">DITONELLAPIAGA - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401032900 +0200" stop="20260401033300 +0200" channel="Radio.105.it">
-    <title lang="it">ALOE BLACC</title>
-    <desc lang="it">ALOE BLACC - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401033500 +0200" stop="20260401033900 +0200" channel="Radio.105.it">
-    <title lang="it">Lda &amp; aka 7even</title>
-    <desc lang="it">Lda &amp; aka 7even - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401033900 +0200" stop="20260401034200 +0200" channel="Radio.105.it">
-    <title lang="it">Calvin harris feat. kasabian</title>
-    <desc lang="it">Calvin harris feat. kasabian - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401034200 +0200" stop="20260401034500 +0200" channel="Radio.105.it">
-    <title lang="it">THE KID LAROI</title>
-    <desc lang="it">THE KID LAROI - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401034500 +0200" stop="20260401034800 +0200" channel="Radio.105.it">
-    <title lang="it">PINKPANTHERESS &amp; ZARA LARSSON</title>
-    <desc lang="it">PINKPANTHERESS &amp; ZARA LARSSON - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401034800 +0200" stop="20260401035100 +0200" channel="Radio.105.it">
-    <title lang="it">BRESH</title>
-    <desc lang="it">BRESH - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401035100 +0200" stop="20260401035400 +0200" channel="Radio.105.it">
-    <title lang="it">ALEX WARREN</title>
-    <desc lang="it">ALEX WARREN - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401035400 +0200" stop="20260401035700 +0200" channel="Radio.105.it">
-    <title lang="it">ELTON JOHN &amp; DUA LIPA</title>
-    <desc lang="it">ELTON JOHN &amp; DUA LIPA - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401035700 +0200" stop="20260401040000 +0200" channel="Radio.105.it">
-    <title lang="it">MEEK</title>
-    <desc lang="it">MEEK - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401040000 +0200" stop="20260401040300 +0200" channel="Radio.105.it">
-    <title lang="it">PANIC! AT THE DISCO</title>
-    <desc lang="it">I Panic! At The Disco sono un gruppo musicale statunitense formatosi a Las Vegas nel 2004. - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401040300 +0200" stop="20260401040700 +0200" channel="Radio.105.it">
-    <title lang="it">BLANCO</title>
-    <desc lang="it">BLANCO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401040700 +0200" stop="20260401041000 +0200" channel="Radio.105.it">
-    <title lang="it">JUNG KOOK</title>
-    <desc lang="it">JUNG KOOK - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401041000 +0200" stop="20260401041300 +0200" channel="Radio.105.it">
-    <title lang="it">SOMBR</title>
-    <desc lang="it">SOMBR - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401041300 +0200" stop="20260401041600 +0200" channel="Radio.105.it">
-    <title lang="it">Skye newman</title>
-    <desc lang="it">Skye newman - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401041600 +0200" stop="20260401041900 +0200" channel="Radio.105.it">
-    <title lang="it">LADY GAGA</title>
-    <desc lang="it">LADY GAGA - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401041900 +0200" stop="20260401042300 +0200" channel="Radio.105.it">
-    <title lang="it">Ernia</title>
-    <desc lang="it">Ernia - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401042300 +0200" stop="20260401042600 +0200" channel="Radio.105.it">
-    <title lang="it">TYLA</title>
-    <desc lang="it">TYLA - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401042600 +0200" stop="20260401043100 +0200" channel="Radio.105.it">
-    <title lang="it">DISCLOSURE FEAT. MARY J. BLIGE</title>
-    <desc lang="it">DISCLOSURE FEAT. MARY J. BLIGE - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401043300 +0200" stop="20260401043700 +0200" channel="Radio.105.it">
-    <title lang="it">Tredici pietro</title>
-    <desc lang="it">Tredici pietro - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401043700 +0200" stop="20260401044000 +0200" channel="Radio.105.it">
-    <title lang="it">KAMRAD</title>
-    <desc lang="it">KAMRAD - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401044000 +0200" stop="20260401044300 +0200" channel="Radio.105.it">
-    <title lang="it">DAMIANO DAVID</title>
-    <desc lang="it">DAMIANO DAVID - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401044300 +0200" stop="20260401044700 +0200" channel="Radio.105.it">
-    <title lang="it">BENSON BOONE</title>
-    <desc lang="it">BENSON BOONE - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401044700 +0200" stop="20260401045000 +0200" channel="Radio.105.it">
-    <title lang="it">DJO</title>
-    <desc lang="it">DJO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401045000 +0200" stop="20260401045300 +0200" channel="Radio.105.it">
-    <title lang="it">ULTIMO</title>
-    <desc lang="it">ULTIMO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401045300 +0200" stop="20260401045600 +0200" channel="Radio.105.it">
-    <title lang="it">LUSAINT</title>
-    <desc lang="it">LUSAINT - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401045600 +0200" stop="20260401045900 +0200" channel="Radio.105.it">
-    <title lang="it">LOUIS TOMLINSON</title>
-    <desc lang="it">LOUIS TOMLINSON - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401045900 +0200" stop="20260401050200 +0200" channel="Radio.105.it">
-    <title lang="it">SOLEROY</title>
-    <desc lang="it">SOLEROY - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401050200 +0200" stop="20260401050500 +0200" channel="Radio.105.it">
-    <title lang="it">CRAIG DAVID</title>
-    <desc lang="it">CRAIG DAVID - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401050500 +0200" stop="20260401050800 +0200" channel="Radio.105.it">
-    <title lang="it">Samurai jay</title>
-    <desc lang="it">Samurai jay - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401050800 +0200" stop="20260401051100 +0200" channel="Radio.105.it">
-    <title lang="it">BENNY BLANCO WITH BTS &amp; SNOOP DOGG</title>
-    <desc lang="it">BENNY BLANCO WITH BTS &amp; SNOOP DOGG - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401051100 +0200" stop="20260401051500 +0200" channel="Radio.105.it">
-    <title lang="it">BRUNO MARS</title>
-    <desc lang="it">BRUNO MARS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401051700 +0200" stop="20260401052100 +0200" channel="Radio.105.it">
-    <title lang="it">LIZZO</title>
-    <desc lang="it">LIZZO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401052100 +0200" stop="20260401052400 +0200" channel="Radio.105.it">
-    <title lang="it">Nayt</title>
-    <desc lang="it">Nayt - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401052400 +0200" stop="20260401052700 +0200" channel="Radio.105.it">
-    <title lang="it">KUNGS FEAT. THEOPHILUS LONDON</title>
-    <desc lang="it">KUNGS FEAT. THEOPHILUS LONDON - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401052700 +0200" stop="20260401053000 +0200" channel="Radio.105.it">
-    <title lang="it">SURF MESA FEAT. EMILEE</title>
-    <desc lang="it">SURF MESA FEAT. EMILEE - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401053000 +0200" stop="20260401053300 +0200" channel="Radio.105.it">
-    <title lang="it">MYLES SMITH FEAT. NIALL HORAN</title>
-    <desc lang="it">MYLES SMITH FEAT. NIALL HORAN - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401053300 +0200" stop="20260401053600 +0200" channel="Radio.105.it">
-    <title lang="it">GEOLIER</title>
-    <desc lang="it">GEOLIER - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401053600 +0200" stop="20260401054200 +0200" channel="Radio.105.it">
-    <title lang="it">HARRY STYLES</title>
-    <desc lang="it">HARRY STYLES - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401054200 +0200" stop="20260401054500 +0200" channel="Radio.105.it">
-    <title lang="it">AVA MAX</title>
-    <desc lang="it">AVA MAX - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401054500 +0200" stop="20260401054900 +0200" channel="Radio.105.it">
-    <title lang="it">TOMMASO PARADISO</title>
-    <desc lang="it">TOMMASO PARADISO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401054900 +0200" stop="20260401055200 +0200" channel="Radio.105.it">
-    <title lang="it">Calvin harris feat. kasabian</title>
-    <desc lang="it">Calvin harris feat. kasabian - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401055200 +0200" stop="20260401055600 +0200" channel="Radio.105.it">
-    <title lang="it">SOPHIE AND THE GIANTS</title>
-    <desc lang="it">SOPHIE AND THE GIANTS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401055600 +0200" stop="20260401060000 +0200" channel="Radio.105.it">
-    <title lang="it">BLANCO</title>
-    <desc lang="it">BLANCO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401060000 +0200" stop="20260401060300 +0200" channel="Radio.105.it">
-    <title lang="it">DAVID GUETTA FEAT. KELLY ROWLAND</title>
-    <desc lang="it">DAVID GUETTA FEAT. KELLY ROWLAND - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401060300 +0200" stop="20260401060700 +0200" channel="Radio.105.it">
-    <title lang="it">ANNALISA</title>
-    <desc lang="it">ANNALISA - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401060700 +0200" stop="20260401061000 +0200" channel="Radio.105.it">
-    <title lang="it">TAYLOR SWIFT</title>
-    <desc lang="it">TAYLOR SWIFT - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401061000 +0200" stop="20260401061400 +0200" channel="Radio.105.it">
-    <title lang="it">PINKPANTHERESS &amp; ZARA LARSSON</title>
-    <desc lang="it">PINKPANTHERESS &amp; ZARA LARSSON - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401061600 +0200" stop="20260401062000 +0200" channel="Radio.105.it">
-    <title lang="it">G - EAZY FEAT. CHRIS BROWN &amp; MARK MORRISON</title>
-    <desc lang="it">G - EAZY FEAT. CHRIS BROWN &amp; MARK MORRISON - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401062000 +0200" stop="20260401062400 +0200" channel="Radio.105.it">
-    <title lang="it">A$ap rocky</title>
-    <desc lang="it">A$ap rocky - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401062400 +0200" stop="20260401062800 +0200" channel="Radio.105.it">
-    <title lang="it">EAMON</title>
-    <desc lang="it">EAMON - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401062800 +0200" stop="20260401063100 +0200" channel="Radio.105.it">
-    <title lang="it">Lda &amp; aka 7even</title>
-    <desc lang="it">Lda &amp; aka 7even - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401063100 +0200" stop="20260401063400 +0200" channel="Radio.105.it">
-    <title lang="it">CALVIN HARRIS &amp; DUA LIPA FEAT. YOUNG THUG</title>
-    <desc lang="it">CALVIN HARRIS &amp; DUA LIPA FEAT. YOUNG THUG - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401063400 +0200" stop="20260401063700 +0200" channel="Radio.105.it">
-    <title lang="it">ALEX WARREN</title>
-    <desc lang="it">ALEX WARREN - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401063700 +0200" stop="20260401064100 +0200" channel="Radio.105.it">
-    <title lang="it">LORDE</title>
-    <desc lang="it">Lorde, vero nome Ella Marija Lani Yelich - O'Connor (7 Novembre 1996), e' una cantautrice neozelandese. - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401064100 +0200" stop="20260401064400 +0200" channel="Radio.105.it">
-    <title lang="it">Ernia</title>
-    <desc lang="it">Ernia - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401064600 +0200" stop="20260401064900 +0200" channel="Radio.105.it">
-    <title lang="it">ALOK, SIGALA, ELLIE GOULDING</title>
-    <desc lang="it">ALOK, SIGALA, ELLIE GOULDING - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401064900 +0200" stop="20260401065400 +0200" channel="Radio.105.it">
-    <title lang="it">CHAPPELL ROAN</title>
-    <desc lang="it">CHAPPELL ROAN - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401065600 +0200" stop="20260401070000 +0200" channel="Radio.105.it">
-    <title lang="it">BENSON BOONE</title>
-    <desc lang="it">BENSON BOONE - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401070000 +0200" stop="20260401083900 +0200" channel="Radio.105.it">
-    <title lang="it">TUTTO ESAURITO</title>
-    <desc lang="it">TUTTO ESAURITO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401083900 +0200" stop="20260401085100 +0200" channel="Radio.105.it">
-    <title lang="it">TUTTO ESAURITO</title>
-    <desc lang="it">TUTTO ESAURITO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401085100 +0200" stop="20260401090000 +0200" channel="Radio.105.it">
-    <title lang="it">TUTTO ESAURITO</title>
-    <desc lang="it">TUTTO ESAURITO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401090100 +0200" stop="20260401093900 +0200" channel="Radio.105.it">
-    <title lang="it">TUTTO ESAURITO</title>
-    <desc lang="it">TUTTO ESAURITO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401093900 +0200" stop="20260401095100 +0200" channel="Radio.105.it">
-    <title lang="it">TUTTO ESAURITO</title>
-    <desc lang="it">TUTTO ESAURITO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401095100 +0200" stop="20260401100000 +0200" channel="Radio.105.it">
-    <title lang="it">TUTTO ESAURITO</title>
-    <desc lang="it">TUTTO ESAURITO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401100000 +0200" stop="20260401102100 +0200" channel="Radio.105.it">
-    <title lang="it">105 FRIENDS</title>
-    <desc lang="it">105 FRIENDS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401102100 +0200" stop="20260401104600 +0200" channel="Radio.105.it">
-    <title lang="it">105 FRIENDS</title>
-    <desc lang="it">105 FRIENDS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401104600 +0200" stop="20260401111700 +0200" channel="Radio.105.it">
-    <title lang="it">105 FRIENDS</title>
-    <desc lang="it">105 FRIENDS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401111700 +0200" stop="20260401115100 +0200" channel="Radio.105.it">
-    <title lang="it">105 FRIENDS</title>
-    <desc lang="it">105 FRIENDS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401115100 +0200" stop="20260401120000 +0200" channel="Radio.105.it">
-    <title lang="it">105 FRIENDS</title>
-    <desc lang="it">105 FRIENDS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401120100 +0200" stop="20260401122100 +0200" channel="Radio.105.it">
-    <title lang="it">105 TAKE AWAY</title>
-    <desc lang="it">105 TAKE AWAY - EPG by epg-guide.com</desc>
-    <icon src="https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314304401008501/epg/media/21/85/884e73f9-ff02-4947-9cf9-a68a71ae39ea/cf419769-5c29-43b3-828d-9119786746dd.jpg" />
-  </programme>
-  <programme start="20260401122100 +0200" stop="20260401125100 +0200" channel="Radio.105.it">
-    <title lang="it">105 TAKE AWAY</title>
-    <desc lang="it">105 TAKE AWAY - EPG by epg-guide.com</desc>
-    <icon src="https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314304401008501/epg/media/21/85/884e73f9-ff02-4947-9cf9-a68a71ae39ea/cf419769-5c29-43b3-828d-9119786746dd.jpg" />
-  </programme>
-  <programme start="20260401125100 +0200" stop="20260401130000 +0200" channel="Radio.105.it">
-    <title lang="it">105 TAKE AWAY</title>
-    <desc lang="it">105 TAKE AWAY - EPG by epg-guide.com</desc>
-    <icon src="https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314304401008501/epg/media/21/85/884e73f9-ff02-4947-9cf9-a68a71ae39ea/cf419769-5c29-43b3-828d-9119786746dd.jpg" />
-  </programme>
-  <programme start="20260401130000 +0200" stop="20260401132100 +0200" channel="Radio.105.it">
-    <title lang="it">GLI SQUIZZATI DI 105</title>
-    <desc lang="it">GLI SQUIZZATI DI 105 - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401132100 +0200" stop="20260401135000 +0200" channel="Radio.105.it">
-    <title lang="it">GLI SQUIZZATI DI 105</title>
-    <desc lang="it">GLI SQUIZZATI DI 105 - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401135000 +0200" stop="20260401140000 +0200" channel="Radio.105.it">
-    <title lang="it">GLI SQUIZZATI DI 105</title>
-    <desc lang="it">GLI SQUIZZATI DI 105 - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401140000 +0200" stop="20260401140300 +0200" channel="Radio.105.it">
-    <title lang="it">COEZ &amp; FRAH QUINTALE</title>
-    <desc lang="it">COEZ &amp; FRAH QUINTALE - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401140300 +0200" stop="20260401140600 +0200" channel="Radio.105.it">
-    <title lang="it">MAESIC &amp; MARSHALL JEFFERSON FEAT. SALOME' DAS</title>
-    <desc lang="it">MAESIC &amp; MARSHALL JEFFERSON FEAT. SALOME' DAS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401140600 +0200" stop="20260401141000 +0200" channel="Radio.105.it">
-    <title lang="it">B.O.B. FEAT. BRUNO MARS</title>
-    <desc lang="it">Bobby Ray Simmons, conosciuto con il nome d'arte B.O.B. o Bobby Ray (15 Novembre 1988), e' un rapper e produttore discografico statunitense.
-Bruno Mars, nome d'arte di Peter Gene Hernandez (Honolulu, 8 ottobre 1985), e' un cantautore, produttore discografico e doppiatore statunitense. - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401141000 +0200" stop="20260401141500 +0200" channel="Radio.105.it">
-    <title lang="it">EMINEM FEAT. SKYLAR GREY</title>
-    <desc lang="it">EMINEM FEAT. SKYLAR GREY - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401141500 +0200" stop="20260401141900 +0200" channel="Radio.105.it">
-    <title lang="it">ED SHEERAN</title>
-    <desc lang="it">Edward Christopher Sheeran (Halifax, 17 Febbraio 1991) e' un cantautore britannico. - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401141900 +0200" stop="20260401142200 +0200" channel="Radio.105.it">
-    <title lang="it">KAMRAD</title>
-    <desc lang="it">KAMRAD - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401142200 +0200" stop="20260401142500 +0200" channel="Radio.105.it">
-    <title lang="it">DARIN</title>
-    <desc lang="it">DARIN - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401142500 +0200" stop="20260401142900 +0200" channel="Radio.105.it">
-    <title lang="it">DITONELLAPIAGA</title>
-    <desc lang="it">DITONELLAPIAGA - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401142900 +0200" stop="20260401143200 +0200" channel="Radio.105.it">
-    <title lang="it">Maroon 5</title>
-    <desc lang="it">I Maroon 5 sono un gruppo musicale pop rock statunitense, formatosi a Los Angeles nel 1994 e composto da Adam Levine, James Valentine, Matt Flynn e Jesse Carmichael. - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401143400 +0200" stop="20260401143700 +0200" channel="Radio.105.it">
-    <title lang="it">SOLEROY</title>
-    <desc lang="it">SOLEROY - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401143700 +0200" stop="20260401144300 +0200" channel="Radio.105.it">
-    <title lang="it">JOVANOTTI</title>
-    <desc lang="it">JOVANOTTI - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401144500 +0200" stop="20260401144800 +0200" channel="Radio.105.it">
-    <title lang="it">ROSALIA</title>
-    <desc lang="it">ROSALIA - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401144800 +0200" stop="20260401145100 +0200" channel="Radio.105.it">
-    <title lang="it">MYLES SMITH FEAT. NIALL HORAN</title>
-    <desc lang="it">MYLES SMITH FEAT. NIALL HORAN - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401145100 +0200" stop="20260401145400 +0200" channel="Radio.105.it">
-    <title lang="it">PAUL RUSSELL</title>
-    <desc lang="it">PAUL RUSSELL - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401145400 +0200" stop="20260401145900 +0200" channel="Radio.105.it">
-    <title lang="it">WHITNEY HOUSTON</title>
-    <desc lang="it">WHITNEY HOUSTON - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401145900 +0200" stop="20260401150200 +0200" channel="Radio.105.it">
-    <title lang="it">BRESH</title>
-    <desc lang="it">BRESH - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401150200 +0200" stop="20260401150700 +0200" channel="Radio.105.it">
-    <title lang="it">HARRY STYLES</title>
-    <desc lang="it">HARRY STYLES - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401150700 +0200" stop="20260401151000 +0200" channel="Radio.105.it">
-    <title lang="it">GEOLIER</title>
-    <desc lang="it">GEOLIER - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401151000 +0200" stop="20260401151300 +0200" channel="Radio.105.it">
-    <title lang="it">PINKPANTHERESS &amp; ZARA LARSSON</title>
-    <desc lang="it">PINKPANTHERESS &amp; ZARA LARSSON - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401151300 +0200" stop="20260401151600 +0200" channel="Radio.105.it">
-    <title lang="it">Tame impala &amp; jennie</title>
-    <desc lang="it">Tame impala &amp; jennie - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401151600 +0200" stop="20260401152100 +0200" channel="Radio.105.it">
-    <title lang="it">ED SHEERAN</title>
-    <desc lang="it">Edward Christopher Sheeran (Halifax, 17 Febbraio 1991) e' un cantautore britannico. - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401152100 +0200" stop="20260401152500 +0200" channel="Radio.105.it">
-    <title lang="it">BLANCO</title>
-    <desc lang="it">BLANCO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401152500 +0200" stop="20260401152800 +0200" channel="Radio.105.it">
-    <title lang="it">JUSTIN BIEBER</title>
-    <desc lang="it">JUSTIN BIEBER - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401152800 +0200" stop="20260401153100 +0200" channel="Radio.105.it">
-    <title lang="it">TAYLOR SWIFT</title>
-    <desc lang="it">TAYLOR SWIFT - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401153100 +0200" stop="20260401153500 +0200" channel="Radio.105.it">
-    <title lang="it">FEDEZ &amp; MARCO MASINI</title>
-    <desc lang="it">FEDEZ &amp; MARCO MASINI - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401153700 +0200" stop="20260401154100 +0200" channel="Radio.105.it">
-    <title lang="it">CAMILA CABELLO FEAT. LIL NAS X</title>
-    <desc lang="it">CAMILA CABELLO FEAT. LIL NAS X - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401154100 +0200" stop="20260401154400 +0200" channel="Radio.105.it">
-    <title lang="it">Calvin harris feat. kasabian</title>
-    <desc lang="it">Calvin harris feat. kasabian - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401154400 +0200" stop="20260401154900 +0200" channel="Radio.105.it">
-    <title lang="it">Ernia</title>
-    <desc lang="it">Ernia - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401155100 +0200" stop="20260401155400 +0200" channel="Radio.105.it">
-    <title lang="it">LUMIDEE</title>
-    <desc lang="it">LUMIDEE - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401155600 +0200" stop="20260401160000 +0200" channel="Radio.105.it">
-    <title lang="it">THIRTY SECONDS TO MARS</title>
-    <desc lang="it">THIRTY SECONDS TO MARS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401160000 +0200" stop="20260401162100 +0200" channel="Radio.105.it">
-    <title lang="it">105 MUSIC &amp; CARS</title>
-    <desc lang="it">105 MUSIC &amp; CARS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401162100 +0200" stop="20260401165100 +0200" channel="Radio.105.it">
-    <title lang="it">105 MUSIC &amp; CARS</title>
-    <desc lang="it">105 MUSIC &amp; CARS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401165100 +0200" stop="20260401172000 +0200" channel="Radio.105.it">
-    <title lang="it">105 MUSIC &amp; CARS</title>
-    <desc lang="it">105 MUSIC &amp; CARS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401172000 +0200" stop="20260401175200 +0200" channel="Radio.105.it">
-    <title lang="it">105 MUSIC &amp; CARS</title>
-    <desc lang="it">105 MUSIC &amp; CARS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401175200 +0200" stop="20260401180000 +0200" channel="Radio.105.it">
-    <title lang="it">105 MUSIC &amp; CARS</title>
-    <desc lang="it">105 MUSIC &amp; CARS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401180100 +0200" stop="20260401182100 +0200" channel="Radio.105.it">
-    <title lang="it">LA CAROVANA DI 105</title>
-    <desc lang="it">LA CAROVANA DI 105 - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401182100 +0200" stop="20260401185000 +0200" channel="Radio.105.it">
-    <title lang="it">LA CAROVANA DI 105</title>
-    <desc lang="it">LA CAROVANA DI 105 - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401185000 +0200" stop="20260401190000 +0200" channel="Radio.105.it">
-    <title lang="it">LA CAROVANA DI 105</title>
-    <desc lang="it">LA CAROVANA DI 105 - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401190100 +0200" stop="20260401192200 +0200" channel="Radio.105.it">
-    <title lang="it">LA CAROVANA DI 105</title>
-    <desc lang="it">LA CAROVANA DI 105 - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401192200 +0200" stop="20260401195000 +0200" channel="Radio.105.it">
-    <title lang="it">LA CAROVANA DI 105</title>
-    <desc lang="it">LA CAROVANA DI 105 - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401195000 +0200" stop="20260401200000 +0200" channel="Radio.105.it">
-    <title lang="it">LA CAROVANA DI 105</title>
-    <desc lang="it">LA CAROVANA DI 105 - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401200000 +0200" stop="20260401202100 +0200" channel="Radio.105.it">
-    <title lang="it">105 MI CASA</title>
-    <desc lang="it">105 MI CASA - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401202100 +0200" stop="20260401205100 +0200" channel="Radio.105.it">
-    <title lang="it">105 MI CASA</title>
-    <desc lang="it">105 MI CASA - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401205100 +0200" stop="20260401210000 +0200" channel="Radio.105.it">
-    <title lang="it">105 MI CASA</title>
-    <desc lang="it">105 MI CASA - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401210000 +0200" stop="20260401212100 +0200" channel="Radio.105.it">
-    <title lang="it">105 NIGHT EXPRESS</title>
-    <desc lang="it">105 NIGHT EXPRESS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401212100 +0200" stop="20260401215200 +0200" channel="Radio.105.it">
-    <title lang="it">105 NIGHT EXPRESS</title>
-    <desc lang="it">105 NIGHT EXPRESS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401215200 +0200" stop="20260401222300 +0200" channel="Radio.105.it">
-    <title lang="it">105 NIGHT EXPRESS</title>
-    <desc lang="it">105 NIGHT EXPRESS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401222300 +0200" stop="20260401225100 +0200" channel="Radio.105.it">
-    <title lang="it">105 NIGHT EXPRESS</title>
-    <desc lang="it">105 NIGHT EXPRESS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401225100 +0200" stop="20260401230000 +0200" channel="Radio.105.it">
-    <title lang="it">105 NIGHT EXPRESS</title>
-    <desc lang="it">105 NIGHT EXPRESS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401230200 +0200" stop="20260402000600 +0200" channel="Radio.105.it">
-    <title lang="it">Lo zoo di 105 '26</title>
-    <desc lang="it">Lo zoo di 105 '26 - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402000800 +0200" stop="20260402001200 +0200" channel="Radio.105.it">
-    <title lang="it">Partynextdoor feat. drake &amp; yebba</title>
-    <desc lang="it">Partynextdoor feat. drake &amp; yebba - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402001200 +0200" stop="20260402001500 +0200" channel="Radio.105.it">
-    <title lang="it">ARIANA GRANDE</title>
-    <desc lang="it">Ariana Grande - Butera (26 Giugno 1993) e' un'attrice, cantante e compositrice statunitense. Divenuta famosa grazie al ruolo di Cat Valentine nelle sit - com di successo di Nickelodeon "Victorious e Sam &amp; Cat". - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402001500 +0200" stop="20260402001900 +0200" channel="Radio.105.it">
-    <title lang="it">R3HAB FEAT. SOPHIE AND THE GIANTS</title>
-    <desc lang="it">R3HAB FEAT. SOPHIE AND THE GIANTS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402001900 +0200" stop="20260402002300 +0200" channel="Radio.105.it">
-    <title lang="it">MILEY CYRUS</title>
-    <desc lang="it">MILEY CYRUS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402002300 +0200" stop="20260402002600 +0200" channel="Radio.105.it">
-    <title lang="it">Lda &amp; aka 7even</title>
-    <desc lang="it">Lda &amp; aka 7even - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402002600 +0200" stop="20260402002900 +0200" channel="Radio.105.it">
-    <title lang="it">IMAGINE DRAGONS</title>
-    <desc lang="it">IMAGINE DRAGONS - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402002900 +0200" stop="20260402003200 +0200" channel="Radio.105.it">
-    <title lang="it">LOUIS TOMLINSON</title>
-    <desc lang="it">LOUIS TOMLINSON - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402003200 +0200" stop="20260402003600 +0200" channel="Radio.105.it">
-    <title lang="it">DONELL JONES FEAT. LISA "LEFT EYE" LOPES</title>
-    <desc lang="it">DONELL JONES FEAT. LISA "LEFT EYE" LOPES - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402003600 +0200" stop="20260402003900 +0200" channel="Radio.105.it">
-    <title lang="it">DUA LIPA</title>
-    <desc lang="it">DUA LIPA - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402003900 +0200" stop="20260402004200 +0200" channel="Radio.105.it">
-    <title lang="it">ULTIMO</title>
-    <desc lang="it">ULTIMO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402004200 +0200" stop="20260402004700 +0200" channel="Radio.105.it">
-    <title lang="it">NSYNC</title>
-    <desc lang="it">NSYNC - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402004700 +0200" stop="20260402005000 +0200" channel="Radio.105.it">
-    <title lang="it">Corbyn besson &amp; tzuyu</title>
-    <desc lang="it">Corbyn besson &amp; tzuyu - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402005000 +0200" stop="20260402005300 +0200" channel="Radio.105.it">
-    <title lang="it">LAZZA</title>
-    <desc lang="it">LAZZA - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402005300 +0200" stop="20260402005600 +0200" channel="Radio.105.it">
-    <title lang="it">DJO</title>
-    <desc lang="it">DJO - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260402005800 +0200" stop="20260402010300 +0200" channel="Radio.105.it">
-    <title lang="it">JENNIFER LOPEZ FEAT. LL COOL J</title>
-    <desc lang="it">JENNIFER LOPEZ FEAT. LL COOL J - EPG by epg-guide.com</desc>
-  </programme>
-  <programme start="20260401230200 +0200" stop="20260402000600 +0200" channel="Radio.105.it">
-    <title lang="it">Lo zoo di 105 '26</title>
-    <desc lang="it">Lo zoo di 105 '26 - EPG by epg-guide.com</desc>
+  <programme start="20260407000000 +0200" stop="20260407020000 +0200" channel="K2.it">
+    <title lang="it">EPG non disponibile</title>
+  </programme>
+  <programme start="20260407060000 +0200" stop="20260408000000 +0200" channel="K2.it">
+    <title lang="it">EPG non disponibile</title>
   </programme>
   <programme start="20260402000800 +0200" stop="20260402001200 +0200" channel="Radio.105.it">
     <title lang="it">Partynextdoor feat. drake &amp; yebba</title>
@@ -53878,8 +53098,804 @@ Bruno Mars, nome d'arte di Peter Gene Hernandez (Honolulu, 8 ottobre 1985), e' u
     <title lang="it">ARK</title>
     <desc lang="it">ARK - EPG by epg-guide.com</desc>
   </programme>
-  <programme start="20260402065600 +0200" stop="20260402065900 +0200" channel="Radio.105.it">
+  <programme start="20260402065600 +0200" stop="20260402070000 +0200" channel="Radio.105.it">
     <title lang="it">Joel corry feat. mabel</title>
     <desc lang="it">Joel corry feat. mabel - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402070000 +0200" stop="20260402083900 +0200" channel="Radio.105.it">
+    <title lang="it">TUTTO ESAURITO</title>
+    <desc lang="it">TUTTO ESAURITO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402083900 +0200" stop="20260402085100 +0200" channel="Radio.105.it">
+    <title lang="it">TUTTO ESAURITO</title>
+    <desc lang="it">TUTTO ESAURITO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402085100 +0200" stop="20260402090000 +0200" channel="Radio.105.it">
+    <title lang="it">TUTTO ESAURITO</title>
+    <desc lang="it">TUTTO ESAURITO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402090100 +0200" stop="20260402094000 +0200" channel="Radio.105.it">
+    <title lang="it">TUTTO ESAURITO</title>
+    <desc lang="it">TUTTO ESAURITO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402094000 +0200" stop="20260402095100 +0200" channel="Radio.105.it">
+    <title lang="it">TUTTO ESAURITO</title>
+    <desc lang="it">TUTTO ESAURITO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402095100 +0200" stop="20260402100000 +0200" channel="Radio.105.it">
+    <title lang="it">TUTTO ESAURITO</title>
+    <desc lang="it">TUTTO ESAURITO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402100000 +0200" stop="20260402102100 +0200" channel="Radio.105.it">
+    <title lang="it">105 FRIENDS</title>
+    <desc lang="it">105 FRIENDS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402102100 +0200" stop="20260402105200 +0200" channel="Radio.105.it">
+    <title lang="it">105 FRIENDS</title>
+    <desc lang="it">105 FRIENDS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402105200 +0200" stop="20260402112300 +0200" channel="Radio.105.it">
+    <title lang="it">105 FRIENDS</title>
+    <desc lang="it">105 FRIENDS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402112300 +0200" stop="20260402115100 +0200" channel="Radio.105.it">
+    <title lang="it">105 FRIENDS</title>
+    <desc lang="it">105 FRIENDS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402115100 +0200" stop="20260402120000 +0200" channel="Radio.105.it">
+    <title lang="it">105 FRIENDS</title>
+    <desc lang="it">105 FRIENDS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402120100 +0200" stop="20260402122200 +0200" channel="Radio.105.it">
+    <title lang="it">105 TAKE AWAY</title>
+    <desc lang="it">105 TAKE AWAY - EPG by epg-guide.com</desc>
+    <icon src="https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314304401008601/epg/media/21/85/884e73f9-ff02-4947-9cf9-a68a71ae39ea/cf419769-5c29-43b3-828d-9119786746dd.jpg" />
+  </programme>
+  <programme start="20260402122200 +0200" stop="20260402125100 +0200" channel="Radio.105.it">
+    <title lang="it">105 TAKE AWAY</title>
+    <desc lang="it">105 TAKE AWAY - EPG by epg-guide.com</desc>
+    <icon src="https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314304401008601/epg/media/21/85/884e73f9-ff02-4947-9cf9-a68a71ae39ea/cf419769-5c29-43b3-828d-9119786746dd.jpg" />
+  </programme>
+  <programme start="20260402125100 +0200" stop="20260402130000 +0200" channel="Radio.105.it">
+    <title lang="it">105 TAKE AWAY</title>
+    <desc lang="it">105 TAKE AWAY - EPG by epg-guide.com</desc>
+    <icon src="https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F314304401008601/epg/media/21/85/884e73f9-ff02-4947-9cf9-a68a71ae39ea/cf419769-5c29-43b3-828d-9119786746dd.jpg" />
+  </programme>
+  <programme start="20260402130000 +0200" stop="20260402132100 +0200" channel="Radio.105.it">
+    <title lang="it">GLI SQUIZZATI DI 105</title>
+    <desc lang="it">GLI SQUIZZATI DI 105 - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402132100 +0200" stop="20260402135000 +0200" channel="Radio.105.it">
+    <title lang="it">GLI SQUIZZATI DI 105</title>
+    <desc lang="it">GLI SQUIZZATI DI 105 - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402135000 +0200" stop="20260402140000 +0200" channel="Radio.105.it">
+    <title lang="it">GLI SQUIZZATI DI 105</title>
+    <desc lang="it">GLI SQUIZZATI DI 105 - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402140200 +0200" stop="20260402140600 +0200" channel="Radio.105.it">
+    <title lang="it">DAVID GUETTA x MISTAJAM x JOHN NEWMAN</title>
+    <desc lang="it">DAVID GUETTA x MISTAJAM x JOHN NEWMAN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402140600 +0200" stop="20260402140900 +0200" channel="Radio.105.it">
+    <title lang="it">POST MALONE FEAT. TY DOLLA $IGN</title>
+    <desc lang="it">POST MALONE FEAT. TY DOLLA $IGN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402140900 +0200" stop="20260402141200 +0200" channel="Radio.105.it">
+    <title lang="it">BENJAMIN INGROSSO</title>
+    <desc lang="it">BENJAMIN INGROSSO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402141200 +0200" stop="20260402141800 +0200" channel="Radio.105.it">
+    <title lang="it">CALVIN HARRIS X THE WEEKND</title>
+    <desc lang="it">CALVIN HARRIS X THE WEEKND - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402141800 +0200" stop="20260402142200 +0200" channel="Radio.105.it">
+    <title lang="it">BLANCO</title>
+    <desc lang="it">BLANCO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402142200 +0200" stop="20260402142500 +0200" channel="Radio.105.it">
+    <title lang="it">SABRINA CARPENTER</title>
+    <desc lang="it">SABRINA CARPENTER - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402142500 +0200" stop="20260402142900 +0200" channel="Radio.105.it">
+    <title lang="it">BENSON BOONE</title>
+    <desc lang="it">BENSON BOONE - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402142900 +0200" stop="20260402143200 +0200" channel="Radio.105.it">
+    <title lang="it">JUSTIN BIEBER</title>
+    <desc lang="it">Justin Drew Bieber (1 Marzo 1994) e' un cantautore, musicista e attore canadese. - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402143200 +0200" stop="20260402143600 +0200" channel="Radio.105.it">
+    <title lang="it">OLLY &amp; JULI</title>
+    <desc lang="it">OLLY &amp; JULI - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402143800 +0200" stop="20260402144200 +0200" channel="Radio.105.it">
+    <title lang="it">TOM GRENNAN</title>
+    <desc lang="it">TOM GRENNAN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402144200 +0200" stop="20260402144500 +0200" channel="Radio.105.it">
+    <title lang="it">ULTIMO</title>
+    <desc lang="it">ULTIMO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402144500 +0200" stop="20260402144900 +0200" channel="Radio.105.it">
+    <title lang="it">BILLIE EILISH</title>
+    <desc lang="it">BILLIE EILISH - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402144900 +0200" stop="20260402145400 +0200" channel="Radio.105.it">
+    <title lang="it">LOUIS TOMLINSON</title>
+    <desc lang="it">LOUIS TOMLINSON - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402145600 +0200" stop="20260402145900 +0200" channel="Radio.105.it">
+    <title lang="it">HARRY STYLES</title>
+    <desc lang="it">HARRY STYLES - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402145900 +0200" stop="20260402150300 +0200" channel="Radio.105.it">
+    <title lang="it">FEDEZ &amp; MARCO MASINI</title>
+    <desc lang="it">FEDEZ &amp; MARCO MASINI - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402150300 +0200" stop="20260402150600 +0200" channel="Radio.105.it">
+    <title lang="it">SOMBR</title>
+    <desc lang="it">SOMBR - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402150600 +0200" stop="20260402150900 +0200" channel="Radio.105.it">
+    <title lang="it">Corbyn besson &amp; tzuyu</title>
+    <desc lang="it">Corbyn besson &amp; tzuyu - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402150900 +0200" stop="20260402151300 +0200" channel="Radio.105.it">
+    <title lang="it">BRUNO MARS</title>
+    <desc lang="it">BRUNO MARS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402151300 +0200" stop="20260402151600 +0200" channel="Radio.105.it">
+    <title lang="it">BRESH</title>
+    <desc lang="it">BRESH - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402151600 +0200" stop="20260402151900 +0200" channel="Radio.105.it">
+    <title lang="it">DJO</title>
+    <desc lang="it">DJO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402151900 +0200" stop="20260402152500 +0200" channel="Radio.105.it">
+    <title lang="it">MADONNA</title>
+    <desc lang="it">Madonna, nome completo Madonna Louise Veronica Ciccone (Bay City, 16 Agosto 1958), e' una cantautrice, ballerina, attrice, regista, sceneggiatrice, stilista, produttrice discografica e cinematografica statunitense. - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402152500 +0200" stop="20260402152800 +0200" channel="Radio.105.it">
+    <title lang="it">Samurai jay</title>
+    <desc lang="it">Samurai jay - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402152800 +0200" stop="20260402153200 +0200" channel="Radio.105.it">
+    <title lang="it">EMINEM FEAT. JELLY ROLL</title>
+    <desc lang="it">EMINEM FEAT. JELLY ROLL - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402153200 +0200" stop="20260402153500 +0200" channel="Radio.105.it">
+    <title lang="it">KUNGS FEAT. THEOPHILUS LONDON</title>
+    <desc lang="it">KUNGS FEAT. THEOPHILUS LONDON - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402153500 +0200" stop="20260402153800 +0200" channel="Radio.105.it">
+    <title lang="it">TOMMASO PARADISO</title>
+    <desc lang="it">TOMMASO PARADISO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402153800 +0200" stop="20260402154100 +0200" channel="Radio.105.it">
+    <title lang="it">Myles smith</title>
+    <desc lang="it">Myles smith - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402154100 +0200" stop="20260402154400 +0200" channel="Radio.105.it">
+    <title lang="it">ALEX WARREN</title>
+    <desc lang="it">ALEX WARREN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402154400 +0200" stop="20260402154700 +0200" channel="Radio.105.it">
+    <title lang="it">SOLEROY</title>
+    <desc lang="it">SOLEROY - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402154700 +0200" stop="20260402155300 +0200" channel="Radio.105.it">
+    <title lang="it">MERK &amp; KREMONT</title>
+    <desc lang="it">Merk &amp; Kremont sono un duo di DJ e produttori italiani, i veri nomi sono Federico Mercuri e Giordano Cremona. - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402155300 +0200" stop="20260402155600 +0200" channel="Radio.105.it">
+    <title lang="it">Jennie feat. dua lipa</title>
+    <desc lang="it">Jennie feat. dua lipa - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402155600 +0200" stop="20260402160000 +0200" channel="Radio.105.it">
+    <title lang="it">IRAMA &amp; RKOMI</title>
+    <desc lang="it">IRAMA &amp; RKOMI - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402160000 +0200" stop="20260402162100 +0200" channel="Radio.105.it">
+    <title lang="it">105 MUSIC &amp; CARS</title>
+    <desc lang="it">105 MUSIC &amp; CARS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402162100 +0200" stop="20260402164800 +0200" channel="Radio.105.it">
+    <title lang="it">105 MUSIC &amp; CARS</title>
+    <desc lang="it">105 MUSIC &amp; CARS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402164800 +0200" stop="20260402172100 +0200" channel="Radio.105.it">
+    <title lang="it">105 MUSIC &amp; CARS</title>
+    <desc lang="it">105 MUSIC &amp; CARS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402172100 +0200" stop="20260402175200 +0200" channel="Radio.105.it">
+    <title lang="it">105 MUSIC &amp; CARS</title>
+    <desc lang="it">105 MUSIC &amp; CARS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402175200 +0200" stop="20260402180000 +0200" channel="Radio.105.it">
+    <title lang="it">105 MUSIC &amp; CARS</title>
+    <desc lang="it">105 MUSIC &amp; CARS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402180100 +0200" stop="20260402182100 +0200" channel="Radio.105.it">
+    <title lang="it">LA CAROVANA DI 105</title>
+    <desc lang="it">LA CAROVANA DI 105 - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402182100 +0200" stop="20260402185000 +0200" channel="Radio.105.it">
+    <title lang="it">LA CAROVANA DI 105</title>
+    <desc lang="it">LA CAROVANA DI 105 - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402185000 +0200" stop="20260402190000 +0200" channel="Radio.105.it">
+    <title lang="it">LA CAROVANA DI 105</title>
+    <desc lang="it">LA CAROVANA DI 105 - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402190100 +0200" stop="20260402192100 +0200" channel="Radio.105.it">
+    <title lang="it">LA CAROVANA DI 105</title>
+    <desc lang="it">LA CAROVANA DI 105 - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402192100 +0200" stop="20260402195000 +0200" channel="Radio.105.it">
+    <title lang="it">LA CAROVANA DI 105</title>
+    <desc lang="it">LA CAROVANA DI 105 - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402195000 +0200" stop="20260402200000 +0200" channel="Radio.105.it">
+    <title lang="it">LA CAROVANA DI 105</title>
+    <desc lang="it">LA CAROVANA DI 105 - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402200000 +0200" stop="20260402202200 +0200" channel="Radio.105.it">
+    <title lang="it">105 MI CASA</title>
+    <desc lang="it">105 MI CASA - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402202200 +0200" stop="20260402205100 +0200" channel="Radio.105.it">
+    <title lang="it">105 MI CASA</title>
+    <desc lang="it">105 MI CASA - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402205100 +0200" stop="20260402210000 +0200" channel="Radio.105.it">
+    <title lang="it">105 MI CASA</title>
+    <desc lang="it">105 MI CASA - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402210000 +0200" stop="20260402212200 +0200" channel="Radio.105.it">
+    <title lang="it">105 NIGHT EXPRESS</title>
+    <desc lang="it">105 NIGHT EXPRESS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402212200 +0200" stop="20260402215200 +0200" channel="Radio.105.it">
+    <title lang="it">105 NIGHT EXPRESS</title>
+    <desc lang="it">105 NIGHT EXPRESS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402215200 +0200" stop="20260402222300 +0200" channel="Radio.105.it">
+    <title lang="it">105 NIGHT EXPRESS</title>
+    <desc lang="it">105 NIGHT EXPRESS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402222300 +0200" stop="20260402225000 +0200" channel="Radio.105.it">
+    <title lang="it">105 NIGHT EXPRESS</title>
+    <desc lang="it">105 NIGHT EXPRESS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402225000 +0200" stop="20260402225900 +0200" channel="Radio.105.it">
+    <title lang="it">105 NIGHT EXPRESS</title>
+    <desc lang="it">105 NIGHT EXPRESS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402225900 +0200" stop="20260402230300 +0200" channel="Radio.105.it">
+    <title lang="it">MARRACASH</title>
+    <desc lang="it">MARRACASH - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402230300 +0200" stop="20260403000600 +0200" channel="Radio.105.it">
+    <title lang="it">Lo zoo di 105 '26</title>
+    <desc lang="it">Lo zoo di 105 '26 - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403000600 +0200" stop="20260403000900 +0200" channel="Radio.105.it">
+    <title lang="it">DARIN</title>
+    <desc lang="it">DARIN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403000900 +0200" stop="20260403001300 +0200" channel="Radio.105.it">
+    <title lang="it">MAROON 5 FEAT. SZA</title>
+    <desc lang="it">I Maroon 5 sono un gruppo musicale pop rock statunitense formatosi a Los Angeles, California, nel 1995.
+SZA, pseudonimo di Solána Imani Rowe (Saint Louis, 8 Novembre 1990), e' una cantante statunitense. - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403001300 +0200" stop="20260403001600 +0200" channel="Radio.105.it">
+    <title lang="it">DIPLO &amp; MIGUEL</title>
+    <desc lang="it">DIPLO &amp; MIGUEL - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403001600 +0200" stop="20260403002200 +0200" channel="Radio.105.it">
+    <title lang="it">SHAWN MENDES</title>
+    <desc lang="it">Shawn Mendes, nome vero Shawn Peter Raul Mendes (Toronto, 8 Agosto 1998), e' un cantautore canadese. - EPG by epg-guide.com</desc>
+    <category lang="it">musicale</category>
+  </programme>
+  <programme start="20260403002200 +0200" stop="20260403002500 +0200" channel="Radio.105.it">
+    <title lang="it">Nayt</title>
+    <desc lang="it">Nayt - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403002700 +0200" stop="20260403003100 +0200" channel="Radio.105.it">
+    <title lang="it">A$ap rocky</title>
+    <desc lang="it">A$ap rocky - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403003100 +0200" stop="20260403003500 +0200" channel="Radio.105.it">
+    <title lang="it">DRAKE</title>
+    <desc lang="it">DRAKE - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403003500 +0200" stop="20260403003900 +0200" channel="Radio.105.it">
+    <title lang="it">YEARS &amp; YEARS FEAT. GALANTIS</title>
+    <desc lang="it">YEARS &amp; YEARS FEAT. GALANTIS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403004100 +0200" stop="20260403004600 +0200" channel="Radio.105.it">
+    <title lang="it">THE CHAINSMOKERS</title>
+    <desc lang="it">THE CHAINSMOKERS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403004600 +0200" stop="20260403004900 +0200" channel="Radio.105.it">
+    <title lang="it">MEEK</title>
+    <desc lang="it">MEEK - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403004900 +0200" stop="20260403005200 +0200" channel="Radio.105.it">
+    <title lang="it">DOJA CAT FEAT. THE WEEKND</title>
+    <desc lang="it">DOJA CAT FEAT. THE WEEKND - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403005200 +0200" stop="20260403005500 +0200" channel="Radio.105.it">
+    <title lang="it">KAMRAD</title>
+    <desc lang="it">KAMRAD - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403005500 +0200" stop="20260403005900 +0200" channel="Radio.105.it">
+    <title lang="it">CHAPPELL ROAN</title>
+    <desc lang="it">CHAPPELL ROAN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403005900 +0200" stop="20260403010400 +0200" channel="Radio.105.it">
+    <title lang="it">JUSTIN TIMBERLAKE</title>
+    <desc lang="it">Justin Randall Timberlake (Memphis, 31 Gennaio 1981) e' un cantautore, ballerino, attore e produttore discografico statunitense. - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260402230300 +0200" stop="20260403000600 +0200" channel="Radio.105.it">
+    <title lang="it">Lo zoo di 105 '26</title>
+    <desc lang="it">Lo zoo di 105 '26 - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403000600 +0200" stop="20260403000900 +0200" channel="Radio.105.it">
+    <title lang="it">DARIN</title>
+    <desc lang="it">DARIN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403000900 +0200" stop="20260403001300 +0200" channel="Radio.105.it">
+    <title lang="it">MAROON 5 FEAT. SZA</title>
+    <desc lang="it">I Maroon 5 sono un gruppo musicale pop rock statunitense formatosi a Los Angeles, California, nel 1995.
+SZA, pseudonimo di Solána Imani Rowe (Saint Louis, 8 Novembre 1990), e' una cantante statunitense. - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403001300 +0200" stop="20260403001600 +0200" channel="Radio.105.it">
+    <title lang="it">DIPLO &amp; MIGUEL</title>
+    <desc lang="it">DIPLO &amp; MIGUEL - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403001600 +0200" stop="20260403002200 +0200" channel="Radio.105.it">
+    <title lang="it">SHAWN MENDES</title>
+    <desc lang="it">Shawn Mendes, nome vero Shawn Peter Raul Mendes (Toronto, 8 Agosto 1998), e' un cantautore canadese. - EPG by epg-guide.com</desc>
+    <category lang="it">musicale</category>
+  </programme>
+  <programme start="20260403002200 +0200" stop="20260403002500 +0200" channel="Radio.105.it">
+    <title lang="it">Nayt</title>
+    <desc lang="it">Nayt - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403002700 +0200" stop="20260403003100 +0200" channel="Radio.105.it">
+    <title lang="it">A$ap rocky</title>
+    <desc lang="it">A$ap rocky - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403003100 +0200" stop="20260403003500 +0200" channel="Radio.105.it">
+    <title lang="it">DRAKE</title>
+    <desc lang="it">DRAKE - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403003500 +0200" stop="20260403003900 +0200" channel="Radio.105.it">
+    <title lang="it">YEARS &amp; YEARS FEAT. GALANTIS</title>
+    <desc lang="it">YEARS &amp; YEARS FEAT. GALANTIS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403004100 +0200" stop="20260403004600 +0200" channel="Radio.105.it">
+    <title lang="it">THE CHAINSMOKERS</title>
+    <desc lang="it">THE CHAINSMOKERS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403004600 +0200" stop="20260403004900 +0200" channel="Radio.105.it">
+    <title lang="it">MEEK</title>
+    <desc lang="it">MEEK - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403004900 +0200" stop="20260403005200 +0200" channel="Radio.105.it">
+    <title lang="it">DOJA CAT FEAT. THE WEEKND</title>
+    <desc lang="it">DOJA CAT FEAT. THE WEEKND - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403005200 +0200" stop="20260403005500 +0200" channel="Radio.105.it">
+    <title lang="it">KAMRAD</title>
+    <desc lang="it">KAMRAD - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403005500 +0200" stop="20260403005900 +0200" channel="Radio.105.it">
+    <title lang="it">CHAPPELL ROAN</title>
+    <desc lang="it">CHAPPELL ROAN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403005900 +0200" stop="20260403010400 +0200" channel="Radio.105.it">
+    <title lang="it">JUSTIN TIMBERLAKE</title>
+    <desc lang="it">Justin Randall Timberlake (Memphis, 31 Gennaio 1981) e' un cantautore, ballerino, attore e produttore discografico statunitense. - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403010400 +0200" stop="20260403010800 +0200" channel="Radio.105.it">
+    <title lang="it">MYLES SMITH FEAT. NIALL HORAN</title>
+    <desc lang="it">MYLES SMITH FEAT. NIALL HORAN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403010800 +0200" stop="20260403011100 +0200" channel="Radio.105.it">
+    <title lang="it">CAMILA CABELLO FEAT. ED SHEERAN</title>
+    <desc lang="it">CAMILA CABELLO FEAT. ED SHEERAN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403011100 +0200" stop="20260403011400 +0200" channel="Radio.105.it">
+    <title lang="it">GEOLIER</title>
+    <desc lang="it">GEOLIER - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403011600 +0200" stop="20260403012100 +0200" channel="Radio.105.it">
+    <title lang="it">CENTRAL CEE</title>
+    <desc lang="it">CENTRAL CEE - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403012100 +0200" stop="20260403012400 +0200" channel="Radio.105.it">
+    <title lang="it">Corbyn besson &amp; tzuyu</title>
+    <desc lang="it">Corbyn besson &amp; tzuyu - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403012400 +0200" stop="20260403012700 +0200" channel="Radio.105.it">
+    <title lang="it">ULTIMO</title>
+    <desc lang="it">ULTIMO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403012700 +0200" stop="20260403013100 +0200" channel="Radio.105.it">
+    <title lang="it">OF MONSTERS AND MEN</title>
+    <desc lang="it">OF MONSTERS AND MEN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403013100 +0200" stop="20260403013400 +0200" channel="Radio.105.it">
+    <title lang="it">DJO</title>
+    <desc lang="it">DJO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403013400 +0200" stop="20260403013700 +0200" channel="Radio.105.it">
+    <title lang="it">KUNGS FEAT. THEOPHILUS LONDON</title>
+    <desc lang="it">KUNGS FEAT. THEOPHILUS LONDON - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403013700 +0200" stop="20260403014000 +0200" channel="Radio.105.it">
+    <title lang="it">Ernia</title>
+    <desc lang="it">Ernia - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403014000 +0200" stop="20260403014400 +0200" channel="Radio.105.it">
+    <title lang="it">TAYLOR SWIFT FEAT. POST MALONE</title>
+    <desc lang="it">TAYLOR SWIFT FEAT. POST MALONE - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403014400 +0200" stop="20260403014700 +0200" channel="Radio.105.it">
+    <title lang="it">SOMBR</title>
+    <desc lang="it">SOMBR - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403014700 +0200" stop="20260403015100 +0200" channel="Radio.105.it">
+    <title lang="it">SABRINA CARPENTER</title>
+    <desc lang="it">SABRINA CARPENTER - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403015100 +0200" stop="20260403015400 +0200" channel="Radio.105.it">
+    <title lang="it">Samurai jay</title>
+    <desc lang="it">Samurai jay - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403015400 +0200" stop="20260403015800 +0200" channel="Radio.105.it">
+    <title lang="it">COLDPLAY</title>
+    <desc lang="it">COLDPLAY - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403015800 +0200" stop="20260403020100 +0200" channel="Radio.105.it">
+    <title lang="it">PINKPANTHERESS &amp; ZARA LARSSON</title>
+    <desc lang="it">PINKPANTHERESS &amp; ZARA LARSSON - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403020100 +0200" stop="20260403020500 +0200" channel="Radio.105.it">
+    <title lang="it">LADY GAGA</title>
+    <desc lang="it">Lady Gaga, nome d'arte di Stefani Joanne Angelina Germanotta (New York, 28 marzo 1986), e' una cantautrice, attrice e attivista statunitense. Il nome d'arte dell'artista e' ispirato al brano Radio Ga Ga dei Queen. - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403020500 +0200" stop="20260403020800 +0200" channel="Radio.105.it">
+    <title lang="it">Lda &amp; aka 7even</title>
+    <desc lang="it">Lda &amp; aka 7even - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403020800 +0200" stop="20260403021100 +0200" channel="Radio.105.it">
+    <title lang="it">LIZZO</title>
+    <desc lang="it">LIZZO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403021100 +0200" stop="20260403021500 +0200" channel="Radio.105.it">
+    <title lang="it">BRUNO MARS</title>
+    <desc lang="it">BRUNO MARS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403021500 +0200" stop="20260403021800 +0200" channel="Radio.105.it">
+    <title lang="it">Tame impala &amp; jennie</title>
+    <desc lang="it">Tame impala &amp; jennie - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403021800 +0200" stop="20260403022100 +0200" channel="Radio.105.it">
+    <title lang="it">MILEY CYRUS</title>
+    <desc lang="it">MILEY CYRUS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403022100 +0200" stop="20260403022500 +0200" channel="Radio.105.it">
+    <title lang="it">DITONELLAPIAGA</title>
+    <desc lang="it">DITONELLAPIAGA - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403022500 +0200" stop="20260403022900 +0200" channel="Radio.105.it">
+    <title lang="it">TAYLOR SWIFT</title>
+    <desc lang="it">TAYLOR SWIFT - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403022900 +0200" stop="20260403023300 +0200" channel="Radio.105.it">
+    <title lang="it">LENNY KRAVITZ</title>
+    <desc lang="it">LENNY KRAVITZ - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403023300 +0200" stop="20260403023700 +0200" channel="Radio.105.it">
+    <title lang="it">BLANCO</title>
+    <desc lang="it">BLANCO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403023700 +0200" stop="20260403024000 +0200" channel="Radio.105.it">
+    <title lang="it">Skye newman</title>
+    <desc lang="it">Skye newman - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403024000 +0200" stop="20260403024300 +0200" channel="Radio.105.it">
+    <title lang="it">Calvin harris feat. kasabian</title>
+    <desc lang="it">Calvin harris feat. kasabian - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403024300 +0200" stop="20260403024700 +0200" channel="Radio.105.it">
+    <title lang="it">J - HOPE WITH J. COLE</title>
+    <desc lang="it">J - HOPE WITH J. COLE - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403024700 +0200" stop="20260403025100 +0200" channel="Radio.105.it">
+    <title lang="it">Tredici pietro</title>
+    <desc lang="it">Tredici pietro - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403025300 +0200" stop="20260403025800 +0200" channel="Radio.105.it">
+    <title lang="it">HARRY STYLES</title>
+    <desc lang="it">HARRY STYLES - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403025800 +0200" stop="20260403030100 +0200" channel="Radio.105.it">
+    <title lang="it">POST MALONE</title>
+    <desc lang="it">POST MALONE - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403030100 +0200" stop="20260403030500 +0200" channel="Radio.105.it">
+    <title lang="it">TYLA</title>
+    <desc lang="it">TYLA - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403030500 +0200" stop="20260403030800 +0200" channel="Radio.105.it">
+    <title lang="it">TOMMASO PARADISO</title>
+    <desc lang="it">TOMMASO PARADISO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403030800 +0200" stop="20260403031200 +0200" channel="Radio.105.it">
+    <title lang="it">TOM WALKER</title>
+    <desc lang="it">Tom Walker (Manchester 17 Dicembre 1991) e' un cantautore britannico. - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403031200 +0200" stop="20260403031500 +0200" channel="Radio.105.it">
+    <title lang="it">SOLEROY</title>
+    <desc lang="it">SOLEROY - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403031500 +0200" stop="20260403031800 +0200" channel="Radio.105.it">
+    <title lang="it">LOUIS TOMLINSON</title>
+    <desc lang="it">LOUIS TOMLINSON - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403032000 +0200" stop="20260403032400 +0200" channel="Radio.105.it">
+    <title lang="it">MYLES SMITH FEAT. NIALL HORAN</title>
+    <desc lang="it">MYLES SMITH FEAT. NIALL HORAN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403032400 +0200" stop="20260403032700 +0200" channel="Radio.105.it">
+    <title lang="it">ULTIMO</title>
+    <desc lang="it">ULTIMO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403032700 +0200" stop="20260403033100 +0200" channel="Radio.105.it">
+    <title lang="it">ALICIA KEYS</title>
+    <desc lang="it">ALICIA KEYS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403033100 +0200" stop="20260403033400 +0200" channel="Radio.105.it">
+    <title lang="it">KUNGS FEAT. THEOPHILUS LONDON</title>
+    <desc lang="it">KUNGS FEAT. THEOPHILUS LONDON - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403033400 +0200" stop="20260403033700 +0200" channel="Radio.105.it">
+    <title lang="it">Ernia</title>
+    <desc lang="it">Ernia - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403033700 +0200" stop="20260403034100 +0200" channel="Radio.105.it">
+    <title lang="it">NF</title>
+    <desc lang="it">NF - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403034100 +0200" stop="20260403034400 +0200" channel="Radio.105.it">
+    <title lang="it">SOMBR</title>
+    <desc lang="it">SOMBR - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403034400 +0200" stop="20260403034700 +0200" channel="Radio.105.it">
+    <title lang="it">ALEX WARREN</title>
+    <desc lang="it">ALEX WARREN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403034700 +0200" stop="20260403035000 +0200" channel="Radio.105.it">
+    <title lang="it">DOJA CAT FEAT. SZA</title>
+    <desc lang="it">DOJA CAT FEAT. SZA - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403035000 +0200" stop="20260403035300 +0200" channel="Radio.105.it">
+    <title lang="it">BRESH</title>
+    <desc lang="it">BRESH - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403035300 +0200" stop="20260403035600 +0200" channel="Radio.105.it">
+    <title lang="it">MEEK</title>
+    <desc lang="it">MEEK - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403035600 +0200" stop="20260403040000 +0200" channel="Radio.105.it">
+    <title lang="it">DISCLOSURE FEAT. SAM SMITH</title>
+    <desc lang="it">DISCLOSURE FEAT. SAM SMITH - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403040000 +0200" stop="20260403040300 +0200" channel="Radio.105.it">
+    <title lang="it">PINKPANTHERESS &amp; ZARA LARSSON</title>
+    <desc lang="it">PINKPANTHERESS &amp; ZARA LARSSON - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403040300 +0200" stop="20260403040700 +0200" channel="Radio.105.it">
+    <title lang="it">POP SMOKE FEAT. DUA LIPA</title>
+    <desc lang="it">POP SMOKE FEAT. DUA LIPA - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403040700 +0200" stop="20260403041000 +0200" channel="Radio.105.it">
+    <title lang="it">Nayt</title>
+    <desc lang="it">Nayt - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403041000 +0200" stop="20260403041300 +0200" channel="Radio.105.it">
+    <title lang="it">BRUNO MARS</title>
+    <desc lang="it">BRUNO MARS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403041300 +0200" stop="20260403041600 +0200" channel="Radio.105.it">
+    <title lang="it">ONEREPUBLIC</title>
+    <desc lang="it">ONEREPUBLIC - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403041600 +0200" stop="20260403042000 +0200" channel="Radio.105.it">
+    <title lang="it">A$ap rocky</title>
+    <desc lang="it">A$ap rocky - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403042000 +0200" stop="20260403042300 +0200" channel="Radio.105.it">
+    <title lang="it">GEOLIER</title>
+    <desc lang="it">GEOLIER - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403042300 +0200" stop="20260403042700 +0200" channel="Radio.105.it">
+    <title lang="it">CLEAN BANDIT FEAT. JESS GLYNNE</title>
+    <desc lang="it">CLEAN BANDIT FEAT. JESS GLYNNE - EPG by epg-guide.com</desc>
+    <category lang="it">musicale</category>
+  </programme>
+  <programme start="20260403042900 +0200" stop="20260403043300 +0200" channel="Radio.105.it">
+    <title lang="it">KAMRAD</title>
+    <desc lang="it">KAMRAD - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403043300 +0200" stop="20260403043600 +0200" channel="Radio.105.it">
+    <title lang="it">FEDEZ &amp; MARCO MASINI</title>
+    <desc lang="it">FEDEZ &amp; MARCO MASINI - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403043600 +0200" stop="20260403043900 +0200" channel="Radio.105.it">
+    <title lang="it">TAI VERDES</title>
+    <desc lang="it">TAI VERDES - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403044100 +0200" stop="20260403044600 +0200" channel="Radio.105.it">
+    <title lang="it">HARRY STYLES</title>
+    <desc lang="it">HARRY STYLES - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403044600 +0200" stop="20260403045000 +0200" channel="Radio.105.it">
+    <title lang="it">TOMMASO PARADISO</title>
+    <desc lang="it">TOMMASO PARADISO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403045000 +0200" stop="20260403045300 +0200" channel="Radio.105.it">
+    <title lang="it">SELENA GOMEZ</title>
+    <desc lang="it">SELENA GOMEZ - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403045300 +0200" stop="20260403045600 +0200" channel="Radio.105.it">
+    <title lang="it">Corbyn besson &amp; tzuyu</title>
+    <desc lang="it">Corbyn besson &amp; tzuyu - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403045600 +0200" stop="20260403045900 +0200" channel="Radio.105.it">
+    <title lang="it">DJO</title>
+    <desc lang="it">DJO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403045900 +0200" stop="20260403050300 +0200" channel="Radio.105.it">
+    <title lang="it">NAUGHTY BY NATURE</title>
+    <desc lang="it">NAUGHTY BY NATURE - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403050300 +0200" stop="20260403050600 +0200" channel="Radio.105.it">
+    <title lang="it">MYLES SMITH FEAT. NIALL HORAN</title>
+    <desc lang="it">MYLES SMITH FEAT. NIALL HORAN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403050600 +0200" stop="20260403051000 +0200" channel="Radio.105.it">
+    <title lang="it">ADELE</title>
+    <desc lang="it">Adele Laurie Blue Adkins, conosciuta semplicemente come Adele (Londra, 5 Maggio 1988), e' una cantautrice britannica. - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403051000 +0200" stop="20260403051300 +0200" channel="Radio.105.it">
+    <title lang="it">Lda &amp; aka 7even</title>
+    <desc lang="it">Lda &amp; aka 7even - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403051300 +0200" stop="20260403051700 +0200" channel="Radio.105.it">
+    <title lang="it">Tame impala &amp; jennie</title>
+    <desc lang="it">Tame impala &amp; jennie - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403052100 +0200" stop="20260403052400 +0200" channel="Radio.105.it">
+    <title lang="it">Ernia</title>
+    <desc lang="it">Ernia - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403052400 +0200" stop="20260403052800 +0200" channel="Radio.105.it">
+    <title lang="it">OUTKAST</title>
+    <desc lang="it">OUTKAST - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403052800 +0200" stop="20260403053200 +0200" channel="Radio.105.it">
+    <title lang="it">BENSON BOONE</title>
+    <desc lang="it">BENSON BOONE - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403053200 +0200" stop="20260403053700 +0200" channel="Radio.105.it">
+    <title lang="it">TAYLOR SWIFT</title>
+    <desc lang="it">TAYLOR SWIFT - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403053700 +0200" stop="20260403054000 +0200" channel="Radio.105.it">
+    <title lang="it">DITONELLAPIAGA</title>
+    <desc lang="it">DITONELLAPIAGA - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403054000 +0200" stop="20260403054300 +0200" channel="Radio.105.it">
+    <title lang="it">BILLIE EILISH</title>
+    <desc lang="it">BILLIE EILISH - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403054300 +0200" stop="20260403054600 +0200" channel="Radio.105.it">
+    <title lang="it">ALEX WARREN</title>
+    <desc lang="it">ALEX WARREN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403054600 +0200" stop="20260403054900 +0200" channel="Radio.105.it">
+    <title lang="it">BRESH</title>
+    <desc lang="it">BRESH - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403054900 +0200" stop="20260403055200 +0200" channel="Radio.105.it">
+    <title lang="it">Justin bieber feat. daniel caesar &amp; giveon</title>
+    <desc lang="it">Justin bieber feat. daniel caesar &amp; giveon - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403055200 +0200" stop="20260403055500 +0200" channel="Radio.105.it">
+    <title lang="it">MEEK</title>
+    <desc lang="it">MEEK - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403055500 +0200" stop="20260403055900 +0200" channel="Radio.105.it">
+    <title lang="it">ASAF AVIDAN FEAT. THE MOJOS</title>
+    <desc lang="it">ASAF AVIDAN FEAT. THE MOJOS - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403055900 +0200" stop="20260403060200 +0200" channel="Radio.105.it">
+    <title lang="it">BLANCO</title>
+    <desc lang="it">BLANCO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403060200 +0200" stop="20260403060600 +0200" channel="Radio.105.it">
+    <title lang="it">METRO BOOMIN FEAT. SWAE LEE, NAV &amp; A BOOGIE WIT DA HOODIE</title>
+    <desc lang="it">METRO BOOMIN FEAT. SWAE LEE, NAV &amp; A BOOGIE WIT DA HOODIE - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403060600 +0200" stop="20260403060900 +0200" channel="Radio.105.it">
+    <title lang="it">Calvin harris feat. kasabian</title>
+    <desc lang="it">Calvin harris feat. kasabian - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403060900 +0200" stop="20260403061200 +0200" channel="Radio.105.it">
+    <title lang="it">Skye newman</title>
+    <desc lang="it">Skye newman - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403061200 +0200" stop="20260403061500 +0200" channel="Radio.105.it">
+    <title lang="it">Samurai jay</title>
+    <desc lang="it">Samurai jay - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403061700 +0200" stop="20260403062000 +0200" channel="Radio.105.it">
+    <title lang="it">SOLEROY</title>
+    <desc lang="it">SOLEROY - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403062000 +0200" stop="20260403062400 +0200" channel="Radio.105.it">
+    <title lang="it">5 SECONDS OF SUMMER</title>
+    <desc lang="it">5 SECONDS OF SUMMER - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403062400 +0200" stop="20260403062700 +0200" channel="Radio.105.it">
+    <title lang="it">LOUIS TOMLINSON</title>
+    <desc lang="it">LOUIS TOMLINSON - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403062700 +0200" stop="20260403063000 +0200" channel="Radio.105.it">
+    <title lang="it">SABRINA CARPENTER</title>
+    <desc lang="it">SABRINA CARPENTER - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403063000 +0200" stop="20260403063300 +0200" channel="Radio.105.it">
+    <title lang="it">ULTIMO</title>
+    <desc lang="it">ULTIMO - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403063300 +0200" stop="20260403063600 +0200" channel="Radio.105.it">
+    <title lang="it">KUNGS FEAT. THEOPHILUS LONDON</title>
+    <desc lang="it">KUNGS FEAT. THEOPHILUS LONDON - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403063600 +0200" stop="20260403063900 +0200" channel="Radio.105.it">
+    <title lang="it">TYLA</title>
+    <desc lang="it">TYLA - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403063900 +0200" stop="20260403064200 +0200" channel="Radio.105.it">
+    <title lang="it">Karol g</title>
+    <desc lang="it">Karol g - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403064200 +0200" stop="20260403064600 +0200" channel="Radio.105.it">
+    <title lang="it">SOMBR</title>
+    <desc lang="it">SOMBR - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403064600 +0200" stop="20260403064900 +0200" channel="Radio.105.it">
+    <title lang="it">Nayt</title>
+    <desc lang="it">Nayt - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403064900 +0200" stop="20260403065200 +0200" channel="Radio.105.it">
+    <title lang="it">BRUNO MARS</title>
+    <desc lang="it">Bruno Mars, nome d'arte di Peter Gene Hernandez (Honolulu, 8 Ottobre 1985), e' un cantautore statunitense - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403065200 +0200" stop="20260403065500 +0200" channel="Radio.105.it">
+    <title lang="it">JAIN &amp; SOLOMUN</title>
+    <desc lang="it">JAIN &amp; SOLOMUN - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260403065500 +0200" stop="20260403065900 +0200" channel="Radio.105.it">
+    <title lang="it">THASUP FEAT. COEZ</title>
+    <desc lang="it">THASUP FEAT. COEZ - EPG by epg-guide.com</desc>
   </programme>
 </tv>
