@@ -13,7 +13,7 @@ SOURCES = [
         "name": "EPGShare01"
     },
     {
-        "url": "https://iptv-epg.org/files/epg-it.xml",
+        "url": "https://iptv-epg.org/files/epg-it.xml.gz",
         "is_gz": True,
         "name": "IPTV-epg"
     },
