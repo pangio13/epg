@@ -114,8 +114,8 @@
   <channel id="Radio105TV.it">
     <display-name>Radio105TV.it</display-name>
   </channel>
-  <channel id="RadioItaliaTV.HD.it">
-    <display-name>RadioItaliaTV.HD.it</display-name>
+  <channel id="RadioItaliaTV.it">
+    <display-name>RadioItaliaTV.it</display-name>
   </channel>
   <channel id="DeejayTV.it">
     <display-name>DeejayTV.it</display-name>
@@ -31287,6 +31287,288 @@ Bruno Mars, nome d'arte di Peter Gene Hernandez (Honolulu, 8 ottobre 1985), e' u
   <programme start="20260402065600 +0200" stop="20260402065900 +0200" channel="Radio105TV.it">
     <title lang="it">Joel corry feat. mabel</title>
     <desc lang="it">Joel corry feat. mabel - EPG by epg-guide.com</desc>
+  </programme>
+  <programme start="20260401002000 +0200" stop="20260401050000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La notte con Radio Italia</title>
+    <desc lang="it">La colonna sonora ideale per chi resta sveglio con noi - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/36f11c9c-7d53-40df-af70-bcbcf7b144af/cover?territory=IT" />
+  </programme>
+  <programme start="20260401050000 +0200" stop="20260401060000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La notte con Radio Italia</title>
+    <desc lang="it">La colonna sonora ideale per chi resta sveglio con noi - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/36f11c9c-7d53-40df-af70-bcbcf7b144af/cover?territory=IT" />
+  </programme>
+  <programme start="20260401060000 +0200" stop="20260401120000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La migliore musica italiana</title>
+    <desc lang="it">I migliori artisti della musica italiana - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/e9ca6c8c-0882-4b0a-855d-784cc865321a/cover?territory=IT" />
+  </programme>
+  <programme start="20260401120000 +0200" stop="20260401122000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La classifica italiana</title>
+    <desc lang="it">La classifica ufficiale dei singoli di Radio Italia, conduce Mario Volanti. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/5ac629e6-fa22-4204-87d1-ef1bcc68c0f4/cover?territory=IT" />
+  </programme>
+  <programme start="20260401122000 +0200" stop="20260401150000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia best</title>
+    <desc lang="it">I video piu' amati da tutti voi. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/47c844ad-e784-47f6-b3df-243c17d30df5/cover?territory=IT" />
+  </programme>
+  <programme start="20260401150000 +0200" stop="20260401160000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Le interviste di Radio Italia</title>
+    <desc lang="it">I protagonisti della musica italiana intervistati da Francesca Leto e Mauro Marino. Ospiti : Bambole di pezza - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/e87d296f-6608-47be-8d52-a4c69d4182dd/cover?territory=IT" />
+  </programme>
+  <programme start="20260401160000 +0200" stop="20260401190000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia new</title>
+    <desc lang="it">Le novita' assolute e i migliori video italiani - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/a9763edc-c761-424c-b59d-cffc4e702766/cover?territory=IT" />
+  </programme>
+  <programme start="20260401210000 +0200" stop="20260401230000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia top</title>
+    <desc lang="it">La migliore musica da cantare - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/57b8811b-67e0-4f96-9d8c-6b2145aeb495/cover?territory=IT" />
+  </programme>
+  <programme start="20260401230000 +0200" stop="20260401234000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Le interviste di Radio Italia</title>
+    <desc lang="it">I protagonisti della musica italiana intervistati da Francesca Leto e Mauro Marino. Ospiti : Bambole di pezza - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/e87d296f-6608-47be-8d52-a4c69d4182dd/cover?territory=IT" />
+  </programme>
+  <programme start="20260401234000 +0200" stop="20260402000000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia top</title>
+    <desc lang="it">La migliore musica da cantare - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/57b8811b-67e0-4f96-9d8c-6b2145aeb495/cover?territory=IT" />
+  </programme>
+  <programme start="20260402000000 +0200" stop="20260402002000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La classifica italiana</title>
+    <desc lang="it">La classifica ufficiale dei singoli di Radio Italia, conduce Mario Volanti. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/5ac629e6-fa22-4204-87d1-ef1bcc68c0f4/cover?territory=IT" />
+  </programme>
+  <programme start="20260402002000 +0200" stop="20260402050000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La notte con Radio Italia</title>
+    <desc lang="it">La colonna sonora ideale per chi resta sveglio con noi - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/36f11c9c-7d53-40df-af70-bcbcf7b144af/cover?territory=IT" />
+  </programme>
+  <programme start="20260402050000 +0200" stop="20260402060000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La notte con Radio Italia</title>
+    <desc lang="it">La colonna sonora ideale per chi resta sveglio con noi - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/36f11c9c-7d53-40df-af70-bcbcf7b144af/cover?territory=IT" />
+  </programme>
+  <programme start="20260402060000 +0200" stop="20260402120000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La migliore musica italiana</title>
+    <desc lang="it">I migliori artisti della musica italiana - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/e9ca6c8c-0882-4b0a-855d-784cc865321a/cover?territory=IT" />
+  </programme>
+  <programme start="20260402120000 +0200" stop="20260402122000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La classifica italiana</title>
+    <desc lang="it">La classifica ufficiale dei singoli di Radio Italia, conduce Mario Volanti. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/5ac629e6-fa22-4204-87d1-ef1bcc68c0f4/cover?territory=IT" />
+  </programme>
+  <programme start="20260402122000 +0200" stop="20260402160000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia best</title>
+    <desc lang="it">I video piu' amati da tutti voi. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/47c844ad-e784-47f6-b3df-243c17d30df5/cover?territory=IT" />
+  </programme>
+  <programme start="20260402160000 +0200" stop="20260402190000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia new</title>
+    <desc lang="it">Le novita' assolute e i migliori video italiani - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/a9763edc-c761-424c-b59d-cffc4e702766/cover?territory=IT" />
+  </programme>
+  <programme start="20260402190000 +0200" stop="20260402210000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia hit</title>
+    <desc lang="it">I migliori brani della settimana - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/a9174207-8920-4752-bbff-927c08f329b6/cover?territory=IT" />
+  </programme>
+  <programme start="20260402210000 +0200" stop="20260403000000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia top</title>
+    <desc lang="it">La migliore musica da cantare - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/57b8811b-67e0-4f96-9d8c-6b2145aeb495/cover?territory=IT" />
+  </programme>
+  <programme start="20260403000000 +0200" stop="20260403002000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La classifica italiana</title>
+    <desc lang="it">La classifica ufficiale dei singoli di Radio Italia, conduce Mario Volanti. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/5ac629e6-fa22-4204-87d1-ef1bcc68c0f4/cover?territory=IT" />
+  </programme>
+  <programme start="20260403002000 +0200" stop="20260403050000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La notte con Radio Italia</title>
+    <desc lang="it">La colonna sonora ideale per chi resta sveglio con noi - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/36f11c9c-7d53-40df-af70-bcbcf7b144af/cover?territory=IT" />
+  </programme>
+  <programme start="20260403060000 +0200" stop="20260403120000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La migliore musica italiana</title>
+    <desc lang="it">I migliori artisti della musica italiana - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/e9ca6c8c-0882-4b0a-855d-784cc865321a/cover?territory=IT" />
+  </programme>
+  <programme start="20260403120000 +0200" stop="20260403122000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La classifica italiana</title>
+    <desc lang="it">La classifica ufficiale dei singoli di Radio Italia, conduce Mario Volanti. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/5ac629e6-fa22-4204-87d1-ef1bcc68c0f4/cover?territory=IT" />
+  </programme>
+  <programme start="20260403122000 +0200" stop="20260403160000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia best</title>
+    <desc lang="it">I video piu' amati da tutti voi. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/47c844ad-e784-47f6-b3df-243c17d30df5/cover?territory=IT" />
+  </programme>
+  <programme start="20260403160000 +0200" stop="20260403180000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia new</title>
+    <desc lang="it">Le novita' assolute e i migliori video italiani - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/a9763edc-c761-424c-b59d-cffc4e702766/cover?territory=IT" />
+  </programme>
+  <programme start="20260403180000 +0200" stop="20260403210000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia hit</title>
+    <desc lang="it">I migliori brani della settimana - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/a9174207-8920-4752-bbff-927c08f329b6/cover?territory=IT" />
+  </programme>
+  <programme start="20260403210000 +0200" stop="20260403220000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia Live</title>
+    <desc lang="it">Music talk con protagonisti i grandi artisti della musica italiana.Vai su Radioitalia.it per scoprire il protagonista della puntata. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/292361f0-42dd-4aa8-91de-3660157407e2/cover?territory=IT" />
+  </programme>
+  <programme start="20260403220000 +0200" stop="20260404000000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia top</title>
+    <desc lang="it">La migliore musica da cantare - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/57b8811b-67e0-4f96-9d8c-6b2145aeb495/cover?territory=IT" />
+  </programme>
+  <programme start="20260404000000 +0200" stop="20260404002000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La classifica italiana</title>
+    <desc lang="it">La classifica ufficiale dei singoli di Radio Italia, conduce Mario Volanti. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/5ac629e6-fa22-4204-87d1-ef1bcc68c0f4/cover?territory=IT" />
+  </programme>
+  <programme start="20260404002000 +0200" stop="20260404050000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La notte con Radio Italia</title>
+    <desc lang="it">La colonna sonora ideale per chi resta sveglio con noi - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/36f11c9c-7d53-40df-af70-bcbcf7b144af/cover?territory=IT" />
+  </programme>
+  <programme start="20260404050000 +0200" stop="20260404060000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La notte con Radio Italia</title>
+    <desc lang="it">La colonna sonora ideale per chi resta sveglio con noi - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/36f11c9c-7d53-40df-af70-bcbcf7b144af/cover?territory=IT" />
+  </programme>
+  <programme start="20260404060000 +0200" stop="20260404120000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La migliore musica italiana</title>
+    <desc lang="it">I migliori artisti della musica italiana - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/e9ca6c8c-0882-4b0a-855d-784cc865321a/cover?territory=IT" />
+  </programme>
+  <programme start="20260404120000 +0200" stop="20260404133000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La classifica italiana</title>
+    <desc lang="it">La classifica ufficiale dei singoli di Radio Italia, conduce Mario Volanti. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/5ac629e6-fa22-4204-87d1-ef1bcc68c0f4/cover?territory=IT" />
+  </programme>
+  <programme start="20260404133000 +0200" stop="20260404160000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia best</title>
+    <desc lang="it">I video piu' amati da tutti voi. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/47c844ad-e784-47f6-b3df-243c17d30df5/cover?territory=IT" />
+  </programme>
+  <programme start="20260404160000 +0200" stop="20260404180000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia new</title>
+    <desc lang="it">Le novita' assolute e i migliori video italiani - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/a9763edc-c761-424c-b59d-cffc4e702766/cover?territory=IT" />
+  </programme>
+  <programme start="20260404180000 +0200" stop="20260404182000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia Music Week</title>
+    <desc lang="it">Appuntamento settimanale che ci informa sulle ultime news dei cantanti italiani e sul mondo della musica. Radio Italia music week e' sempre disponibile su Radioitalia.it - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/0f33aa8a-a1a5-4a01-b313-8b79a594f986/cover?territory=IT" />
+  </programme>
+  <programme start="20260404182000 +0200" stop="20260404210000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia hit</title>
+    <desc lang="it">I migliori brani della settimana - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/a9174207-8920-4752-bbff-927c08f329b6/cover?territory=IT" />
+  </programme>
+  <programme start="20260404210000 +0200" stop="20260405000000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia top</title>
+    <desc lang="it">La migliore musica da cantare - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/57b8811b-67e0-4f96-9d8c-6b2145aeb495/cover?territory=IT" />
+  </programme>
+  <programme start="20260405000000 +0200" stop="20260405013000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La classifica italiana</title>
+    <desc lang="it">La classifica ufficiale dei singoli di Radio Italia, conduce Mario Volanti. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/5ac629e6-fa22-4204-87d1-ef1bcc68c0f4/cover?territory=IT" />
+  </programme>
+  <programme start="20260405013000 +0200" stop="20260405050000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La notte con Radio Italia</title>
+    <desc lang="it">La colonna sonora ideale per chi resta sveglio con noi - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/36f11c9c-7d53-40df-af70-bcbcf7b144af/cover?territory=IT" />
+  </programme>
+  <programme start="20260405060000 +0200" stop="20260405120000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La migliore musica italiana</title>
+    <desc lang="it">I migliori artisti della musica italiana - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/e9ca6c8c-0882-4b0a-855d-784cc865321a/cover?territory=IT" />
+  </programme>
+  <programme start="20260405120000 +0200" stop="20260405133000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La classifica italiana</title>
+    <desc lang="it">La classifica ufficiale dei singoli di Radio Italia, conduce Mario Volanti. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/5ac629e6-fa22-4204-87d1-ef1bcc68c0f4/cover?territory=IT" />
+  </programme>
+  <programme start="20260405133000 +0200" stop="20260405150000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia best</title>
+    <desc lang="it">I video piu' amati da tutti voi. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/47c844ad-e784-47f6-b3df-243c17d30df5/cover?territory=IT" />
+  </programme>
+  <programme start="20260405150000 +0200" stop="20260405190000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia new</title>
+    <desc lang="it">Le novita' assolute e i migliori video italiani - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/a9763edc-c761-424c-b59d-cffc4e702766/cover?territory=IT" />
+  </programme>
+  <programme start="20260405210000 +0200" stop="20260405220000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia Live</title>
+    <desc lang="it">Music talk con protagonisti i grandi artisti della musica italiana.Vai su Radioitalia.it per scoprire il protagonista della puntata. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/292361f0-42dd-4aa8-91de-3660157407e2/cover?territory=IT" />
+  </programme>
+  <programme start="20260405220000 +0200" stop="20260406000000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">Radio Italia top</title>
+    <desc lang="it">La migliore musica da cantare - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/57b8811b-67e0-4f96-9d8c-6b2145aeb495/cover?territory=IT" />
+  </programme>
+  <programme start="20260406000000 +0200" stop="20260406013000 +0200" channel="RadioItaliaTV.it">
+    <title lang="it">La classifica italiana</title>
+    <desc lang="it">La classifica ufficiale dei singoli di Radio Italia, conduce Mario Volanti. - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/5ac629e6-fa22-4204-87d1-ef1bcc68c0f4/cover?territory=IT" />
   </programme>
   <programme start="20260401000000 +0200" stop="20260401020000 +0200" channel="RealTime.it">
     <title lang="it">EPG non disponibile</title>
