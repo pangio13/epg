@@ -12,11 +12,16 @@ SOURCES = [
         "is_gz": True,
         "name": "EPGShare01"
     },
+     {
+        "url": "https://raw.githubusercontent.com/Lululla/xmltv/main/guide.xml.gz",
+        "is_gz": True,
+        "name": "Kodi-IT (Lululla)"
+    },
     {
         "url": "http://epg-guide.com/dtt.xml",
         "is_gz": False,
         "name": "EPG-Guide"
-    },
+    }
 ]
 
 def load_mapping():
