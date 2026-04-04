@@ -6,8 +6,9 @@ import xml.etree.ElementTree as ET
 from io import BytesIO
 
 SOURCES = [
-    {"url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", "is_gz": True, "name": "EPGShare01"},
-    {"url": "https://iptv-epg.org/files/epg-it.xml.gz", "is_gz": True, "name": "IPTV-EPG.org"},
+    {"url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", "is_gz": True, "name": "EPGShare"},
+    {"url": "https://www.open-epg.com/files/italy3.xml", "is_gz": True, "name": "OpenEPG"},
+    {"url": "https://iptv-epg.org/files/epg-it.xml.gz", "is_gz": True, "name": "IPTV-EPG"},
     {"url": "http://epg-guide.com/dtt.xml", "is_gz": False, "name": "EPG-Guide"}
 ]
 
