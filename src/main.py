@@ -7,8 +7,8 @@ from io import BytesIO
 
 SOURCES = [
     {"url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", "is_gz": True, "name": "EPGShare"},
-    {"url": "https://www.open-epg.com/files/italy8.xml", "is_gz": False, "name": "OpenEPG"},
-    {"url": "https://www.open-epg.com/files/italy1.xml", "is_gz": False, "name": "IPTV-EPG"},
+    {"url": "https://www.open-epg.com/files/italy8.xml", "is_gz": False, "name": "OpenEPG-8"},
+    {"url": "https://www.open-epg.com/files/italy1.xml", "is_gz": False, "name": "OpenEPG-1"},
     {"url": "http://epg-guide.com/dtt.xml", "is_gz": False, "name": "EPG-Guide"}
 ]
 
