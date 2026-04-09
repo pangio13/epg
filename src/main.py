@@ -7,9 +7,9 @@ from io import BytesIO
 
 SOURCES = [
     {"url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", "is_gz": True, "name": "EPGShare"},
-    {"url": "https://iptv-epg.org/files/epg-it.xml.gz", "is_gz": True, "name": "IPTV-EPG"},
-    {"url": "https://www.open-epg.com/files/italy1.xml.gz", "is_gz": True, "name": "OpenEPG-1"},
-    {"url": "https://epg-guide.com/it.gz", "is_gz": True, "name": "EPG-Guide"}
+    {"url": "https://iptv-epg.org/files/epg-it.xml", "is_gz": False, "name": "IPTV-EPG"},
+    {"url": "https://www.open-epg.com/files/italy1.xml", "is_gz": False, "name": "OpenEPG-1"},
+    {"url": "http://epg-guide.com/dtt.xml", "is_gz": False, "name": "EPG-Guide"}
 ]
 
 def load_mapping():
