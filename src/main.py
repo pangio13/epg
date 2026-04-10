@@ -8,14 +8,8 @@ from io import BytesIO
 SOURCES = [
     {"url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", "is_gz": True, "name": "EPGShare"},
     {"url": "http://epg-guide.com/dtt.xml", "is_gz": False, "name": "EPG-Guide"},
-    {"url": "https://www.open-epg.com/files/italy1.xml", "is_gz": False, "name": "OpenEPG-1"},
-    {"url": "https://www.open-epg.com/files/italy2.xml", "is_gz": False, "name": "OpenEPG-2"},
-    {"url": "https://www.open-epg.com/files/italy3.xml", "is_gz": False, "name": "OpenEPG-3"},
-    {"url": "https://www.open-epg.com/files/italy4.xml", "is_gz": False, "name": "OpenEPG-4"},
-    {"url": "https://www.open-epg.com/files/italy5.xml", "is_gz": False, "name": "OpenEPG-5"},
-    {"url": "https://www.open-epg.com/files/italy6.xml", "is_gz": False, "name": "OpenEPG-6"},
-    {"url": "https://www.open-epg.com/files/italy7.xml", "is_gz": False, "name": "OpenEPG-7"},
-    {"url": "https://www.open-epg.com/files/italy8.xml", "is_gz": False, "name": "OpenEPG-8"}
+    {"url": "https://www.open-epg.com/files/italy1.xml", "is_gz": False, "name": "OpenEPG"},
+    {"url": "https://iptv-epg.org/files/epg-it.xml", "is_gz": False, "name": "IPTV-EPG"}
 ]
 
 def load_mapping():
