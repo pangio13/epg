@@ -12,8 +12,8 @@ SOURCES = [
     {"url": "https://iptv-epg.org/files/epg-it.xml.gz", "is_gz": True, "name": "IPTV-EPG"}
 ]
 
-# Soglia minima di programmi affinché un canale sia considerato "completo"
-MIN_PROGRAMS = 12 
+# Soglia minima: >30 programmi per validare il canale come definitivo
+MIN_PROGRAMS = 31 
 
 def load_mapping():
     if not os.path.exists('src/channels.json'):
@@ -57,8 +57,6 @@ def build_epg():
     })
 
     added_channels = list(mapping.keys())
-    
-    # Inizializzazione del buffer in RAM per la competizione tra fonti
     epg_buffer = {ch: [] for ch in added_channels}
     
     for target_id in added_channels:
@@ -66,16 +64,15 @@ def build_epg():
         ET.SubElement(ch_node, "display-name").text = target_id
 
     for source in SOURCES:
-        # Interrompe solo se TUTTI i canali hanno superato la soglia di validità
         if all(len(epg_buffer[ch]) >= MIN_PROGRAMS for ch in added_channels):
-            print("\n[INFO] Tutti i canali hanno palinsesti completi. Stop aggregazione.")
+            print(f"\n[INFO] Tutti i canali hanno superato la soglia ({MIN_PROGRAMS}+). Stop aggregazione.")
             break
 
         source_root = fetch_and_parse(source)
         if source_root is None:
             continue
 
-        print(f"Mappatura dinamica e valutazione palinsesti per {source['name']}...")
+        print(f"Valutazione palinsesti per {source['name']}...")
         
         local_channel_map = {}
         for ch in source_root.findall('channel'):
@@ -89,7 +86,6 @@ def build_epg():
             elif c_name in reverse_map:
                 local_channel_map[c_id] = reverse_map[c_name]
 
-        # Buffer temporaneo per la fonte corrente
         temp_buffer = {ch: [] for ch in added_channels}
         
         for prog in source_root.findall('programme'):
@@ -98,19 +94,16 @@ def build_epg():
                 target_ch_id = local_channel_map[source_ch_id]
                 temp_buffer[target_ch_id].append(prog)
 
-        # Logica di sostituzione competitiva
         for ch in added_channels:
             current_len = len(epg_buffer[ch])
             new_len = len(temp_buffer[ch])
             
-            # Se la fonte attuale non raggiunge la soglia, e la nuova fonte ha PIÙ programmi, sovrascrivi.
+            # Sovrascrittura: fallita la soglia E nuovo palinsesto quantitativamente maggiore
             if current_len < MIN_PROGRAMS and new_len > current_len:
                 epg_buffer[ch] = temp_buffer[ch]
-                # Aggiorna l'ID interno al nuovo target
                 for prog in epg_buffer[ch]:
                     prog.set('channel', ch)
 
-    # Scrittura finale dal buffer all'albero XML principale
     print("\n[INFO] Scrittura dei palinsesti ottimali nel file XML...")
     for ch, progs in epg_buffer.items():
         for p in progs:
@@ -128,10 +121,10 @@ def build_epg():
             print(f"[OK] {ch}: {count} programmi")
         elif count > 0:
             mancanti.append(ch)
-            print(f"[INCOMPLETO] {ch}: Solo {count} programmi trovati")
+            print(f"[INCOMPLETO/MASSIMO TROVATO] {ch}: Conservati {count} programmi")
         else:
             mancanti.append(ch)
-            print(f"[VUOTO] {ch}: Nessun dato")
+            print(f"[VUOTO] {ch}: Nessun dato in tutte le fonti")
 
     try:
         tree = ET.ElementTree(new_root)
