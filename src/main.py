@@ -9,8 +9,11 @@ SOURCES = [
     {"url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", "is_gz": True, "name": "EPGShare"},
     {"url": "http://epg-guide.com/dtt.xml", "is_gz": False, "name": "EPG-Guide"},
     {"url": "https://www.open-epg.com/files/italy1.xml", "is_gz": False, "name": "OpenEPG"},
-    {"url": "https://iptv-epg.org/files/epg-it.xml", "is_gz": False, "name": "IPTV-EPG"}
+    {"url": "https://iptv-epg.org/files/epg-it.xml.gz", "is_gz": True, "name": "IPTV-EPG"}
 ]
+
+# Soglia minima di programmi affinché un canale sia considerato "completo"
+MIN_PROGRAMS = 12 
 
 def load_mapping():
     if not os.path.exists('src/channels.json'):
@@ -43,7 +46,6 @@ def build_epg():
     if not mapping:
         return
 
-    # Inversione mappa case-insensitive e normalizzata
     reverse_map = {}
     for target_id, source_ids in mapping.items():
         for s_id in source_ids:
@@ -51,33 +53,34 @@ def build_epg():
 
     new_root = ET.Element("tv", {
         "generator-info-name": "GitHub-Multi-Source-EPG",
-        "source-info-name": "EPGShare+IPTVEPG+Lululla+EPGGuide"
+        "source-info-name": "EPGShare+EPGGuide+OpenEPG+IPTVEPG"
     })
 
     added_channels = list(mapping.keys())
-    program_count = {ch: 0 for ch in added_channels}
+    
+    # Inizializzazione del buffer in RAM per la competizione tra fonti
+    epg_buffer = {ch: [] for ch in added_channels}
     
     for target_id in added_channels:
         ch_node = ET.SubElement(new_root, "channel", id=target_id)
         ET.SubElement(ch_node, "display-name").text = target_id
 
     for source in SOURCES:
-        if all(count > 0 for count in program_count.values()):
-            print("\n[INFO] Tutti i canali sono popolati. Stop aggregazione.")
+        # Interrompe solo se TUTTI i canali hanno superato la soglia di validità
+        if all(len(epg_buffer[ch]) >= MIN_PROGRAMS for ch in added_channels):
+            print("\n[INFO] Tutti i canali hanno palinsesti completi. Stop aggregazione.")
             break
 
         source_root = fetch_and_parse(source)
         if source_root is None:
             continue
 
-        print(f"Mappatura dinamica dei canali per {source['name']}...")
+        print(f"Mappatura dinamica e valutazione palinsesti per {source['name']}...")
         
-        # MAPPATURA BIDIREZIONALE (Match su ID e su Nome Testuale)
         local_channel_map = {}
         for ch in source_root.findall('channel'):
             c_id = ch.get('id', '')
             c_id_lower = c_id.lower().strip()
-            
             disp_elem = ch.find('display-name')
             c_name = disp_elem.text.lower().strip() if disp_elem is not None and disp_elem.text else ""
 
@@ -86,41 +89,46 @@ def build_epg():
             elif c_name in reverse_map:
                 local_channel_map[c_id] = reverse_map[c_name]
 
-        added_from_this_source = 0
+        # Buffer temporaneo per la fonte corrente
+        temp_buffer = {ch: [] for ch in added_channels}
         
         for prog in source_root.findall('programme'):
             source_ch_id = prog.get('channel')
-            
             if source_ch_id in local_channel_map:
                 target_ch_id = local_channel_map[source_ch_id]
-                
-                if program_count[target_ch_id] == 0:
-                    new_prog = ET.Element("programme", prog.attrib)
-                    new_prog.set('channel', target_ch_id)
-                    
-                    for child in prog:
-                        new_prog.append(child)
-                    
-                    new_root.append(new_prog)
-                    prog.set('added_to', target_ch_id) 
+                temp_buffer[target_ch_id].append(prog)
 
-        for prog in source_root.findall('programme'):
-            target = prog.get('added_to')
-            if target:
-                program_count[target] += 1
-                added_from_this_source += 1
+        # Logica di sostituzione competitiva
+        for ch in added_channels:
+            current_len = len(epg_buffer[ch])
+            new_len = len(temp_buffer[ch])
+            
+            # Se la fonte attuale non raggiunge la soglia, e la nuova fonte ha PIÙ programmi, sovrascrivi.
+            if current_len < MIN_PROGRAMS and new_len > current_len:
+                epg_buffer[ch] = temp_buffer[ch]
+                # Aggiorna l'ID interno al nuovo target
+                for prog in epg_buffer[ch]:
+                    prog.set('channel', ch)
 
-        print(f"[+] {added_from_this_source} programmi estratti da {source['name']}.")
+    # Scrittura finale dal buffer all'albero XML principale
+    print("\n[INFO] Scrittura dei palinsesti ottimali nel file XML...")
+    for ch, progs in epg_buffer.items():
+        for p in progs:
+            new_root.append(p)
 
     print("\n--- DETTAGLIO CANALI ---")
     mancanti = []
     success_count = 0
-    total_channels = len(program_count)
+    total_channels = len(added_channels)
 
-    for ch, count in program_count.items():
-        if count > 0:
+    for ch, progs in epg_buffer.items():
+        count = len(progs)
+        if count >= MIN_PROGRAMS:
             success_count += 1
             print(f"[OK] {ch}: {count} programmi")
+        elif count > 0:
+            mancanti.append(ch)
+            print(f"[INCOMPLETO] {ch}: Solo {count} programmi trovati")
         else:
             mancanti.append(ch)
             print(f"[VUOTO] {ch}: Nessun dato")
@@ -137,10 +145,10 @@ def build_epg():
     
     print("\n==================================================")
     if success_count == total_channels:
-        print(f"✅ SUCCESSO TOTALE: {success_count}/{total_channels} canali ({coverage:.1f}%).")
+        print(f"✅ SUCCESSO TOTALE: {success_count}/{total_channels} canali ottimali ({coverage:.1f}%).")
     else:
-        print(f"⚠️ SUCCESSO PARZIALE: {success_count}/{total_channels} canali ({coverage:.1f}%).")
-        print(f"Mancanti ({len(mancanti)}): {', '.join(mancanti)}")
+        print(f"⚠️ SUCCESSO PARZIALE: {success_count}/{total_channels} canali ottimali ({coverage:.1f}%).")
+        print(f"Sotto soglia ({len(mancanti)}): {', '.join(mancanti)}")
     print("==================================================\n")
 
 if __name__ == "__main__":
