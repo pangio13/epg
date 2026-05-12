@@ -62136,48 +62136,6 @@
     <category lang="it">Musica</category>
     <icon src="https://guidatv.sky.it/uuid/Musica_Cover_Ein_MY0UX.png" />
   </programme>
-  <programme start="20260511000000 +0200" stop="20260511060000 +0200" channel="RADIOFRECCIA.HD.it">
-    <title lang="it">Una freccia nel buio</title>
-    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
-    <category lang="it" />
-    <icon src="https://imageservice.sky.com/uuid/cb6de067-adfd-4d23-b8e9-8638ee9a3070/cover?territory=IT" />
-  </programme>
-  <programme start="20260511060000 +0200" stop="20260511100000 +0200" channel="RADIOFRECCIA.HD.it">
-    <title lang="it">Rock morning</title>
-    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
-    <category lang="it" />
-    <icon src="https://imageservice.sky.com/uuid/87394de4-d260-4828-8314-7dd91f47cefc/cover?territory=IT" />
-  </programme>
-  <programme start="20260511100000 +0200" stop="20260511140000 +0200" channel="RADIOFRECCIA.HD.it">
-    <title lang="it">Good vibrations</title>
-    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
-    <category lang="it" />
-    <icon src="https://imageservice.sky.com/uuid/5d98c4c3-dd2a-4373-9ef1-e046772d3108/cover?territory=IT" />
-  </programme>
-  <programme start="20260511140000 +0200" stop="20260511170000 +0200" channel="RADIOFRECCIA.HD.it">
-    <title lang="it">Electric Ladyland</title>
-    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
-    <category lang="it" />
-    <icon src="https://imageservice.sky.com/uuid/7686c117-956b-4c18-adc6-3394480aef89/cover?territory=IT" />
-  </programme>
-  <programme start="20260511170000 +0200" stop="20260511180000 +0200" channel="RADIOFRECCIA.HD.it">
-    <title lang="it">Terra di nessuno</title>
-    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
-    <category lang="it" />
-    <icon src="https://imageservice.sky.com/uuid/8cf697a7-f4d5-481d-a952-1411cbb196ca/cover?territory=IT" />
-  </programme>
-  <programme start="20260511180000 +0200" stop="20260511200000 +0200" channel="RADIOFRECCIA.HD.it">
-    <title lang="it">Molo 17</title>
-    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
-    <category lang="it" />
-    <icon src="https://imageservice.sky.com/uuid/4988d7f1-1fb9-424e-9570-6a1b818801ab/cover?territory=IT" />
-  </programme>
-  <programme start="20260511220000 +0200" stop="20260512000000 +0200" channel="RADIOFRECCIA.HD.it">
-    <title lang="it">L'ultima luna</title>
-    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
-    <category lang="it" />
-    <icon src="https://imageservice.sky.com/uuid/dee19d31-0de7-4c1a-a030-85c8e59ea30f/cover?territory=IT" />
-  </programme>
   <programme start="20260512000000 +0200" stop="20260512060000 +0200" channel="RADIOFRECCIA.HD.it">
     <title lang="it">Una freccia nel buio</title>
     <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
@@ -62347,6 +62305,48 @@
     <icon src="https://imageservice.sky.com/uuid/dee19d31-0de7-4c1a-a030-85c8e59ea30f/cover?territory=IT" />
   </programme>
   <programme start="20260516000000 +0200" stop="20260516060000 +0200" channel="RADIOFRECCIA.HD.it">
+    <title lang="it">Una freccia nel buio</title>
+    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/cb6de067-adfd-4d23-b8e9-8638ee9a3070/cover?territory=IT" />
+  </programme>
+  <programme start="20260516060000 +0200" stop="20260516100000 +0200" channel="RADIOFRECCIA.HD.it">
+    <title lang="it">Rock morning</title>
+    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/87394de4-d260-4828-8314-7dd91f47cefc/cover?territory=IT" />
+  </programme>
+  <programme start="20260516100000 +0200" stop="20260516140000 +0200" channel="RADIOFRECCIA.HD.it">
+    <title lang="it">Good vibrations</title>
+    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/5d98c4c3-dd2a-4373-9ef1-e046772d3108/cover?territory=IT" />
+  </programme>
+  <programme start="20260516140000 +0200" stop="20260516170000 +0200" channel="RADIOFRECCIA.HD.it">
+    <title lang="it">Electric Ladyland</title>
+    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/7686c117-956b-4c18-adc6-3394480aef89/cover?territory=IT" />
+  </programme>
+  <programme start="20260516170000 +0200" stop="20260516180000 +0200" channel="RADIOFRECCIA.HD.it">
+    <title lang="it">Note di stile</title>
+    <desc lang="it">In allestimento - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/3a8bad85-513b-4bd6-8de7-e5e01abbf90f/cover?territory=IT" />
+  </programme>
+  <programme start="20260516180000 +0200" stop="20260516210000 +0200" channel="RADIOFRECCIA.HD.it">
+    <title lang="it">Molo 17</title>
+    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/4988d7f1-1fb9-424e-9570-6a1b818801ab/cover?territory=IT" />
+  </programme>
+  <programme start="20260516210000 +0200" stop="20260517000000 +0200" channel="RADIOFRECCIA.HD.it">
+    <title lang="it">L'ultima luna</title>
+    <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
+    <category lang="it" />
+    <icon src="https://imageservice.sky.com/uuid/dee19d31-0de7-4c1a-a030-85c8e59ea30f/cover?territory=IT" />
+  </programme>
+  <programme start="20260517000000 +0200" stop="20260517060000 +0200" channel="RADIOFRECCIA.HD.it">
     <title lang="it">Una freccia nel buio</title>
     <desc lang="it">Interagisci con noi al +39 366 663 44 66 - EPG by epg-guide.com</desc>
     <category lang="it" />
